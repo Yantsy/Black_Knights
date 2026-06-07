@@ -2,7 +2,7 @@
 <!-- Black_Knights_IconsLeaders -->
 <!-- Author: z -->
 <!-- DateCreated: 6/5/2026 8:32:25 PM -->
-<?xml version="1.0" encoding="UTF-8" ?>
+
 <GameData>
 	<IconTextureAtlases>
 		<Row Name="ATLAS_ZERO_HEAD" IconSize="32" Filename="ZERO_HEAD_32"/>

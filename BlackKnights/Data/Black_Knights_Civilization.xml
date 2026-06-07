@@ -61,7 +61,7 @@
 	<DiplomacyInfo>
 		<Row Type="LEADER_ZERO" BackgroundImage="ZERO_BACK_DILOPMACY_.dds"/>
 	</DiplomacyInfo>
-	<CityName>
+	<CityNames>
 		<Row CivilizationType="CIVILIZATION_BLACK_KNIGHTS" CityName="LOC_BLACK_KNIGHTS_CITY_1"/>
 		<Row CivilizationType="CIVILIZATION_BLACK_KNIGHTS" CityName="LOC_CITY_NAME_KYOTO"/>
 		<Row CivilizationType="CIVILIZATION_BLACK_KNIGHTS" CityName="LOC_CITY_NAME_TOKYO"/>
@@ -96,7 +96,7 @@
 		<Row CivilizationType="CIVILIZATION_BLACK_KNIGHTS" CityName="LOC_CITY_NAME_NAGASAKI"/>
 		<Row CivilizationType="CIVILIZATION_BLACK_KNIGHTS" CityName="LOC_CITY_NAME_TOTTORI"/>
 		<Row CivilizationType="CIVILIZATION_BLACK_KNIGHTS" CityName="LOC_CITY_NAME_NAGAHAMA"/>
-	</CityName>
+	</CityNames>
 	<CivilizationCitizenNames>
 		<Row CivilizationType="CIVILIZATION_BLACK_KNIGHTS" CitizenName="LOC_CITIZEN_BLACK_KNIGHTS_MALE_1"/>
 		<Row CivilizationType="CIVILIZATION_BLACK_KNIGHTS" CitizenName="LOC_CITIZEN_BLACK_KNIGHTS_MALE_2"/>
@@ -124,15 +124,7 @@
 		<Row CivilizationType="CIVILIZATION_BLACK_KNIGHTS" TerrainType="TERRAIN_PLAINS_HILLS" Tier="3"/>
 		<Row CivilizationType="CIVILIZATION_BLACK_KNIGHTS" TerrainType="TERRAIN_TUNDRA_HILLS" Tier="3"/>
 	</StarBiasTerrains>
-	<Traits>
-		<Row TraitType="TRAIT_CIVILIZATION_DISTRICT_BLACK_KNIGHTS_COMMAND" Name="LOC_BLACK_KNIGHTS_COMMAND_NAME"/>
-		<Row TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_SAKURADITE" Name="LOC_IMPROVEMENT_SAKURADITE_NAME"/>
-		<Row TraitType="TRAIT_CIVILIZATION_BUILDING_BLACK_KNIGHTS_FOREIGN_MINISTRY" Name="LOC_BUILDING_BLACK_KNIGHTS_FOREIGN_MINISTRY_NAME"/>
-		<Row TraitType="TRAIT_CIVILIZATION_RIGHTEOUS_ALLY" Name="LOC_RIGHTEOUS_ALLY_NAME" Description="LOC_RIGHTEOUS_ALLY_DESCRIPTION"/>
-		<Row TraitType="TRAIT_CIVILIZATION_ZERO_REQUIEM" Name="LOC_ZERO_REQUIEM_NAME" Description="LOC_ZERO_REQUIEM_DESCRIPTION"/>
-	</Traits>
 	<TraitModifiers></TraitModifiers>
 	<Modifiers></Modifiers>
 	<ModifierArguments></ModifierArguments>
 </GameInfo>
-
