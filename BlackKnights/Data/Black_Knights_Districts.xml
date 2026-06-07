@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Black_Knights_Distircts -->
+<!-- Author: z -->
+<!-- DateCreated: 6/5/2026 8:37:02 PM -->
+<GameData>
+	<Types>
+		<Row Type="DISTRICT_BLACK_KNIGHTS_COMMAND" Kind="KIND_DISTRICT"/>
+	</Types>
+	<DistrictReplaces>
+		<Row CivUniqueDistrictType="DISTRICT_BLACK_KNIGHTS_COMMAND" ReplacesDistrictType="DISTRICT_GOVERNMENT"/>
+	</DistrictReplaces>
+	<Districts>
+		<Row DistrictType="DISTRICT_BLACK_KNIGHTS_COMMAND" Name="LOC_BLACK_KNIGHTS_COMMAND_NAME"
+			 Description="LOC_BLACK_KNIGHTS_COMMAND_DESCRIPTION" PrereqCivic="CIVIC_STATE_WORKFORCE"
+			 PlunderType="PLUNDER_CULTURE" PlunderAmount="25" AdvisorType="ADVISOR_GENERIC"
+			 Cost="15" CostProgressionModel="COST_PROGRESSION_NUM_UNDER_AVG_PLUS_TECH" CostProgressionParam1="25"
+			 Maintenance="1" RequiresPlacement="true" RequiresPopulation="true" Aqueduct="false" NoAdjacentCity="false"
+			 InternalOnly="false" ZOC="false" CaptureRemovesBuildings="false" CaptureRemovesCityDefenses="false"
+			 CaptureRemovesDistrict="true" MilitaryDomain="NO_DOMAIN" CityStrengthModifier="2" MaxPerPlayer="1" TraitType="TRAIT_CIVILIZATION_DISTRICT_BLACK_KNIGHTS_COMMAND"/>
+	</Districts>
+	<District_CitizenYieldChanges>
+		<Row DistrictType="DISTRICT_BLACK_KNIGHTS_COMMAND" YieldType="YIELD_CULTURE" YieldChange="2"/>
+		<Row DistrictType="DISTRICT_BLACK_KNIGHTS_COMMAND" YieldType="YIELD_SCIENCE" YieldChange="1"/>
+	</District_CitizenYieldChanges>
+	<District_Adjacencies>
+		<Row DistrictType="DISTRICT_THEATER" YieldChangeId="Black_Knights_Command_Culture"/>
+		<Row DistrictType="DISTRICT_ACROPOLIS" YieldChangeId="Black_Knights_Command_Culture"/>
+		<Row DistrictType="DISTRICT_HOLY_SITE" YieldChangeId="Black_Knights_Command_Faith"/>
+		<Row DistrictType="DISTRICT_LAVRA" YieldChangeId="Black_Knights_Command_Faith"/>
+		<Row DistrictType="DISTRICT_COMMERCIAL_HUB" YieldChangeId="Black_Knights_Command_Gold"/>
+		<Row DistrictType="DISTRICT_HARBOR" YieldChangeId="Black_Knights_Command_Gold"/>
+		<Row DistrictType="DISTRICT_ROYAL_NAVY_DOCKYARD" YieldChangeId="Black_Knights_Command_Gold"/>
+		<Row DistrictType="DISTRICT_INDUSTRIAL_ZONE" YieldChangeId="Black_Knights_Command_Production"/>
+		<Row DistrictType="DISTRICT_HANSA" YieldChangeId="Black_Knights_Command_Production"/>
+		<Row DistrictType="DISTRICT_CAMPUS" YieldChangeId="Black_Knights_Command_Science"/>
+	</District_Adjacencies>
+	<District_TradeRouteYields>
+		<Row DistrictType="DISTRICT_BLACK_KNIGHTS_COMMAND" YieldType="YIELD_GOLD" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="0" YieldChangeAsInternationalDestination="2"/>
+		<Row DistrictType="DISTRICT_BLACK_KNIGHTS_COMMAND" YieldType="YIELD_FOOD" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="1" YieldChangeAsInternationalDestination="0"/>
+		<Row DistrictType="DISTRICT_BLACK_KNIGHTS_COMMAND" YieldType="YIELD_PRODUCTION" YieldChangeAsOrigin="0" YieldChangeAsDomesticDestination="1" YieldChangeAsInternationalDestination="0"/>
+	</District_TradeRouteYields>
+	<Adjacency_YieldChanges>
+		<Row ID="Black_Knights_Command_Culture" Description="LOC_DISTRICT_BLACK_KNIGHTS_COMMAND_CULTURE" YieldType="YIELD_CULTURE" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_BLACK_KNIGHTS_COMMAND"/>
+		<Row ID="Black_Knights_Command_Faith" Description="LOC_DISTRICT_BLACK_KNIGHTS_COMMAND_FAITH" YieldType="YIELD_FAITH" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_BLACK_KNIGHTS_COMMAND"/>
+		<Row ID="Black_Knights_Command_Gold" Description="LOC_DISTRICT_BLACK_KNIGHTS_COMMAND_GOLD" YieldType="YIELD_GOLD" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_BLACK_KNIGHTS_COMMAND"/>
+		<Row ID="Black_Knights_Command_Production" Description="LOC_DISTRICT_BLACK_KNIGHTS_COMMAND_PRODUCTION" YieldType="YIELD_PRODUCTION" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_BLACK_KNIGHTS_COMMAND"/>
+		<Row ID="Black_Knights_Command_Science" Description="LOC_DISTRICT_BLACK_KNIGHTS_COMMAND_SCIENCE" YieldType="YIELD_SCIENCE" YieldChange="2" TilesRequired="1" AdjacentDistrict="DISTRICT_BLACK_KNIGHTS_COMMAND"/>
+	</Adjacency_YieldChanges>
+	<Modifiers>
+		<!--注册一个叫作BLACK_KNIGHTS_COMMAND_IDENTITY_PER_TURN_MODIFIER的ModifierId,绑定的ModifierType是MODIFIER_SINGLE_CITY_ADJUST_IDENTITY_PER_TURN-->
+		<Row>
+			<ModifierId>BLACK_KNIGHTS_COMMAND_IDENTITY_PER_TURN_MODIFIER</ModifierId>
+			<ModifierType>MODIFIER_SINGLE_CITY_ADJUST_IDENTITY_PER_TURN</ModifierType>
+		</Row>
+		<!--注册一个叫作BLACK_KNIGHTS_GRANT_PLAYER_GOVERNOR_POINTS的Modifier,绑定的ModifierType是MODIFIER_ALL_PLAYERS_ADJUST_GOVERNOR_POINTS，
+		条件集合SubjectRequirementsSetId是PLAYER_HAS_GOVERNMENT_DISTRICT_REQUIREMENTS-->
+		<Row>
+			<ModifierId>BLACK_KNIGHTS_COMMAND_GRANT_PLAYER_GOVERNOR_POINTS</ModifierId>
+			<ModifierType>MODIFIER_ALL_PLAYERS_ADJUST_GOVERNOR_POINTS</ModifierType>
+			<Permanent>true</Permanent>
+			<SubjectRequirementSetId>PLAYER_HAS_BLACK_KNIGHTS_COMMAND_DISTRICT_REQUIREMENTS</SubjectRequirementSetId>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<!--Amount是每回合增加的值，Delta只是触发一个即时的增量，比如此处就是建成黑色骑士团司令部时奖励一个总督头衔，而非每个回合奖励一个-->
+		<Row>
+			<ModifierId>BLACK_KNIGHTS_COMMAND_IDENTITY_PER_TURN_MODIFIER</ModifierId>
+			<Name>Amount</Name>
+			<Value>8</Value>
+		</Row>
+		<Row>
+			<ModifierId>BLACK_KNIGHTS_COMMAND_GRANT_PLAYER_GOVERNOR_POINTS</ModifierId>
+			<Name>Delta</Name>
+			<Value>1</Value>
+		</Row>
+	</ModifierArguments>
+	<!--将Modifier注册到建筑-->
+	<DistrictModifiers>
+		<Row>
+			<DistrictType>DISTRICT_BLACK_KNIGHTS_COMMAND</DistrictType>
+			<ModifierId>BLACK_KNIGHTS_COMMAND_IDENTITY_PER_TURN_MODIFIER</ModifierId>
+		</Row>
+	</DistrictModifiers>
+	<!--将Modifier注册到游戏全局-->
+	<GameModifiers>
+		<Row>
+			<ModifierId>BLACK_KNIGHTS_COMMAND_GRANT_PLAYER_GOVERNOR_POINTS</ModifierId>
+		</Row>
+	</GameModifiers>
+	<!--设定条件集中条件应该满足什么样的逻辑关系,运用什么条件类型-->
+	<RequirementSets>
+		<Row>
+			<RequirementSetId>PLAYER_HAS_BLACK_KNIGHTS_COMMAND_DISTRICT_REQUIREMENTS</RequirementSetId>
+			<RequirementSetType>REQUIREMENTSET_TEST_ALL</RequirementSetType>
+		</Row>
+	</RequirementSets>
+	<!--设定条件集中都有什么子条件-->
+	<RequirementSetRequirements>
+		<Row>
+			<RequirementSetId>PLAYER_HAS_BLACK_KNIGHTS_COMMAND_DISTRICT_REQUIREMENTS</RequirementSetId>
+			<RequirementId>PLAYER_HAS_BLACK_KNIGHTS_COMMAND_DISTRICT_REQUIREMENT</RequirementId>
+		</Row>
+	</RequirementSetRequirements>
+	<!--注册子条件-->
+	<Requirements>
+		<Row>
+			<RequirementId>PLAYER_HAS_BLACK_KNIGHTS_COMMAND_DISTRICT_REQUIREMENT</RequirementId>
+			<RequirementType>REQUIREMENTSET_PLAYER_HAS_DISTRICT</RequirementType>
+		</Row>
+	</Requirements>
+	<!--填充子条件参数-->
+	<RequirementArguments>
+		<Row>
+			<RequirementId>PLAYER_HAS_BLACK_KNIGHTS_COMMAND_DISTRICT_REQUIREMENT</RequirementId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_BLACK_KNIGHTS_COMMAND</Value>
+		</Row>
+	</RequirementArguments>
+</GameData>
+

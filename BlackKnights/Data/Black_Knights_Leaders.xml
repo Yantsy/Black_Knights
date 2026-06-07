@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Black_Knights_Leaders -->
+<!-- Author: z -->
+<!-- DateCreated: 6/5/2026 8:38:32 PM -->
+<GameData>
+	<Types>
+		<Row Type="LEADER_ZERO" Kind="KIND_LEADER"/>
+	</Types>
+	<Leaders>
+		<Row LeaderType="LEADER_ZERO" Name="LOC_LEADER_ZERO_NAME" InheritFrom="LEADER_DEFAULT" SceneLayers="4"/>
+	</Leaders>
+	<LeaderQuotes>
+		<Row LeaderType="LEADER_ZERO" Quote="LOC_PEDIA_LEADERS_PAGE_LEADER_BARBAROSSA_QUOTE" QuoteAudio="Play_GERM_FB_MISC_PEP_TALK_B"/>
+	</LeaderQuotes>
+	
+	<LeaderTraits>
+		<Row LeaderType="LEADER_ZERO" TraitType="TRAIT_CIVILIZATION_ZERO_REQUIEM"/>
+	</LeaderTraits>
+</GameData>

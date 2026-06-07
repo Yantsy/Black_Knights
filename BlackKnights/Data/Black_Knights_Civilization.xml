@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Black_Knights_Civilization -->
+<!-- Author: z -->
+<!-- DateCreated: 6/5/2026 8:35:57 PM -->
+<GameInfo>
+	<Types>
+		<!--  Civs  -->
+		<Row Type="CIVILIZATION_BLACK_KNIGHTS" Kind="KIND_CIVILIZATION"/>
+		<!--  Traits  -->
+		<Row Type="TRAIT_CIVILIZATION_RIGHTEOUS_ALLY" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_CIVILIZATION_ZERO_REQUIEM" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_CIVILIZATION_DISTRICT_BLACK_KNIGHTS_COMMAND" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_CIVILIZATION_IMPROVEMENT_SAKURADITE" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_CIVILIZATION_BUILDING_BLACK_KNIGHTS_FOREIGN_MINISTRY" Kind="KIND_TRAIT"/>
+		<!--  Ability  -->
+	</Types>
+	<Civilizations>
+		<!--  Full Civs  -->
+		<Row CivilizationType="CIVILIZATION_BLACK_KNIGHTS" Name="LOC_CIVILIZATION_BLACK_KNIGHTS_NAME" Description="LOC_CIVILIZATION_BLACK_KNIGHTS_DESCRIPTION"
+			 Adjective="LOC_CIVILIZATION_BLACK_KNIGHTS_ADJECTIVE" StartingCivilizationLevelType="CIVILIZATION_LEVEL_FULL_CIV" RandomCityNameDepth="10" Ethnicity="ETHNICITY_ASIAN"/>
+	</Civilizations>
+	<CivilizationLeaders>
+		<Row CivilizationType="CIVILIZATION_BLACK_KNIGHTS" LeaderType="LEADER_ZERO" CapitalName="LOC_BLACK_KNIGHTS_CITY_1"/>
+	</CivilizationLeaders>
+	<CivilizationTraits>
+		<Row CivilizationType="CIVILIZATION_BLACK_KNIGHTS" TraitType="TRAIT_CIVILIZATION_RIGHTEOUS_ALLY"/>
+		<Row CivilizationType="CIVILIZATION_BLACK_KNIGHTS" TraitType="TRAIT_CIVILIZATION_ZERO_REQUIEM"/>
+		<Row CivilizationType="CIVILIZATION_BLACK_KNIGHTS" TraitType="TRAIT_CIVILIZATION_DISTRICT_BLACK_KNIGHTS_COMMAND"/>
+		<Row CivilizationType="CIVILIZATION_BLACK_KNIGHTS" TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_SAKURADITE"/>
+		<Row CivilizationType="CIVILIZATION_BLACK_KNIGHTS" TraitType="TRAIT_CIVILIZATION_BUILDING_BLACK_KNIGHTS_FOREIGN_MINISTRY"/>
+	</CivilizationTraits>
+	<CivilizationInfo>
+		<Row CivilizationType="CIVILIZATION_BLACK_KNIGHTS" Header="LOC_CIVINFO_LOCATION" Caption="LOC_CIVINFO_BLACK_KNIGHTS_LOCATION" SortIndex="10"/>
+		<Row CivilizationType="CIVILIZATION_BLACK_KNIGHTS" Header="LOC_CIVINFO_SIZE" Caption="LOC_CIVINFO_BLACK_KNIGHTS_SIZE" SortIndex="20"/>
+		<Row CivilizationType="CIVILIZATION_BLACK_KNIGHTS" Header="LOC_CIVINFO_POPULATION" Caption="LOC_CIVINFO_BLACK_KNIGHTS_POPULATION" SortIndex="30"/>
+		<Row CivilizationType="CIVILIZATION_BLACK_KNIGHTS" Header="LOC_CIVINFO_CAPITAL" Caption="LOC_BLACK_KNIGHTS_CITY_1" SortIndex="40"/>
+	</CivilizationInfo>
+	<Colors>
+		<Row>
+			<Type>COLOR_PLAYER_BLACK_KNIGHTS_PRIMARY</Type>
+			<Color>236,30,24,255</Color>
+		</Row>
+		<Row>
+			<Type>COLOR_PLAYER_BLACK_KNIGHTS_SECONDARY</Type>
+			<Color>243,49,44,255</Color>
+		</Row>
+	</Colors>
+	<PlayerColors>
+		<Row>
+			<Type>LEADER_ZERO</Type>
+			<Usage>Unique</Usage>
+			<PrimaryColor>COLOR_PLAYER_BLACK_KNIGHTS_PRIMARY</PrimaryColor>
+			<SecondaryColor>COLOR_PLAYER_BLACK_KNIGHTS_SECONDARY</SecondaryColor>
+			<TextColor>COLOR_PLAYER_WHITE_TEXT</TextColor>
+		</Row>
+	</PlayerColors>
+	<LoadingInfo>
+		<Row LeaderType="LEADER_ZERO" ForegroundImage="ZERO_FRONT_LOADING_.dds" BackgroundImage="ZERO_BACK_LOADING_.dds"
+		EraText="LOC_LOADING_INFO_LEADER_DEFAULT" PlayDawnOfManAudio="1" LeaderText="LOC_LEADER_ZERO_TEXT"/>
+	</LoadingInfo>
+	<DiplomacyInfo>
+		<Row Type="LEADER_ZERO" BackgroundImage="ZERO_BACK_DILOPMACY_.dds"/>
+	</DiplomacyInfo>
+	<CityName>
+		<Row CivilizationType="CIVILIZATION_BLACK_KNIGHTS" CityName="LOC_BLACK_KNIGHTS_CITY_1"/>
+		<Row CivilizationType="CIVILIZATION_BLACK_KNIGHTS" CityName="LOC_CITY_NAME_KYOTO"/>
+		<Row CivilizationType="CIVILIZATION_BLACK_KNIGHTS" CityName="LOC_CITY_NAME_TOKYO"/>
+		<Row CivilizationType="CIVILIZATION_BLACK_KNIGHTS" CityName="LOC_CITY_NAME_OSAKA"/>
+		<Row CivilizationType="CIVILIZATION_BLACK_KNIGHTS" CityName="LOC_CITY_NAME_NAGOYA"/>
+		<Row CivilizationType="CIVILIZATION_BLACK_KNIGHTS" CityName="LOC_CITY_NAME_FUKUOKA"/>
+		<Row CivilizationType="CIVILIZATION_BLACK_KNIGHTS" CityName="LOC_CITY_NAME_SENDAI"/>
+		<Row CivilizationType="CIVILIZATION_BLACK_KNIGHTS" CityName="LOC_CITY_NAME_SHIZUOKA"/>
+		<Row CivilizationType="CIVILIZATION_BLACK_KNIGHTS" CityName="LOC_CITY_NAME_OKAYAMA"/>
+		<Row CivilizationType="CIVILIZATION_BLACK_KNIGHTS" CityName="LOC_CITY_NAME_TAKAMATSU"/>
+		<Row CivilizationType="CIVILIZATION_BLACK_KNIGHTS" CityName="LOC_CITY_NAME_YOKOHAMA"/>
+		<Row CivilizationType="CIVILIZATION_BLACK_KNIGHTS" CityName="LOC_CITY_NAME_GIFU"/>
+		<Row CivilizationType="CIVILIZATION_BLACK_KNIGHTS" CityName="LOC_CITY_NAME_NAGANO"/>
+		<Row CivilizationType="CIVILIZATION_BLACK_KNIGHTS" CityName="LOC_CITY_NAME_TAKASAKI"/>
+		<Row CivilizationType="CIVILIZATION_BLACK_KNIGHTS" CityName="LOC_CITY_NAME_OTSU"/>
+		<Row CivilizationType="CIVILIZATION_BLACK_KNIGHTS" CityName="LOC_CITY_NAME_AOMORI"/>
+		<Row CivilizationType="CIVILIZATION_BLACK_KNIGHTS" CityName="LOC_CITY_NAME_FUKUSHIMA"/>
+		<Row CivilizationType="CIVILIZATION_BLACK_KNIGHTS" CityName="LOC_CITY_NAME_MORIOKA"/>
+		<Row CivilizationType="CIVILIZATION_BLACK_KNIGHTS" CityName="LOC_CITY_NAME_HAKODATE"/>
+		<Row CivilizationType="CIVILIZATION_BLACK_KNIGHTS" CityName="LOC_CITY_NAME_KOBE"/>
+		<Row CivilizationType="CIVILIZATION_BLACK_KNIGHTS" CityName="LOC_CITY_NAME_HAMAMATSU"/>
+		<Row CivilizationType="CIVILIZATION_BLACK_KNIGHTS" CityName="LOC_CITY_NAME_OKAZAKI"/>
+		<Row CivilizationType="CIVILIZATION_BLACK_KNIGHTS" CityName="LOC_CITY_NAME_FUKUI"/>
+		<Row CivilizationType="CIVILIZATION_BLACK_KNIGHTS" CityName="LOC_CITY_NAME_YAMAGATA"/>
+		<Row CivilizationType="CIVILIZATION_BLACK_KNIGHTS" CityName="LOC_CITY_NAME_KAGOSHIMA"/>
+		<Row CivilizationType="CIVILIZATION_BLACK_KNIGHTS" CityName="LOC_CITY_NAME_HIROSHIMA"/>
+		<Row CivilizationType="CIVILIZATION_BLACK_KNIGHTS" CityName="LOC_CITY_NAME_HIMEJI"/>
+		<Row CivilizationType="CIVILIZATION_BLACK_KNIGHTS" CityName="LOC_CITY_NAME_MATSUMOTO"/>
+		<Row CivilizationType="CIVILIZATION_BLACK_KNIGHTS" CityName="LOC_CITY_NAME_OTA"/>
+		<Row CivilizationType="CIVILIZATION_BLACK_KNIGHTS" CityName="LOC_CITY_NAME_NUMAZU"/>
+		<Row CivilizationType="CIVILIZATION_BLACK_KNIGHTS" CityName="LOC_CITY_NAME_SAPPORO"/>
+		<Row CivilizationType="CIVILIZATION_BLACK_KNIGHTS" CityName="LOC_CITY_NAME_NAGASAKI"/>
+		<Row CivilizationType="CIVILIZATION_BLACK_KNIGHTS" CityName="LOC_CITY_NAME_TOTTORI"/>
+		<Row CivilizationType="CIVILIZATION_BLACK_KNIGHTS" CityName="LOC_CITY_NAME_NAGAHAMA"/>
+	</CityName>
+	<CivilizationCitizenNames>
+		<Row CivilizationType="CIVILIZATION_BLACK_KNIGHTS" CitizenName="LOC_CITIZEN_BLACK_KNIGHTS_MALE_1"/>
+		<Row CivilizationType="CIVILIZATION_BLACK_KNIGHTS" CitizenName="LOC_CITIZEN_BLACK_KNIGHTS_MALE_2"/>
+		<Row CivilizationType="CIVILIZATION_BLACK_KNIGHTS" CitizenName="LOC_CITIZEN_BLACK_KNIGHTS_MALE_3"/>
+		<Row CivilizationType="CIVILIZATION_BLACK_KNIGHTS" CitizenName="LOC_CITIZEN_BLACK_KNIGHTS_MALE_4"/>
+		<Row CivilizationType="CIVILIZATION_BLACK_KNIGHTS" CitizenName="LOC_CITIZEN_BLACK_KNIGHTS_MALE_5"/>
+		<Row CivilizationType="CIVILIZATION_BLACK_KNIGHTS" CitizenName="LOC_CITIZEN_BLACK_KNIGHTS_MALE_6"/>
+		<Row CivilizationType="CIVILIZATION_BLACK_KNIGHTS" CitizenName="LOC_CITIZEN_BLACK_KNIGHTS_MALE_7"/>
+		<Row CivilizationType="CIVILIZATION_BLACK_KNIGHTS" CitizenName="LOC_CITIZEN_BLACK_KNIGHTS_MALE_8"/>
+		<Row CivilizationType="CIVILIZATION_BLACK_KNIGHTS" CitizenName="LOC_CITIZEN_BLACK_KNIGHTS_MALE_9"/>
+		<Row CivilizationType="CIVILIZATION_BLACK_KNIGHTS" CitizenName="LOC_CITIZEN_BLACK_KNIGHTS_FEMALE_1" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_BLACK_KNIGHTS" CitizenName="LOC_CITIZEN_BLACK_KNIGHTS_FEMALE_2" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_BLACK_KNIGHTS" CitizenName="LOC_CITIZEN_BLACK_KNIGHTS_FEMALE_3" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_BLACK_KNIGHTS" CitizenName="LOC_CITIZEN_BLACK_KNIGHTS_FEMALE_4" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_BLACK_KNIGHTS" CitizenName="LOC_CITIZEN_BLACK_KNIGHTS_FEMALE_5" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_BLACK_KNIGHTS" CitizenName="LOC_CITIZEN_BLACK_KNIGHTS_FEMALE_6" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_BLACK_KNIGHTS" CitizenName="LOC_CITIZEN_BLACK_KNIGHTS_FEMALE_7" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_BLACK_KNIGHTS" CitizenName="LOC_CITIZEN_BLACK_KNIGHTS_FEMALE_8" Female="true"/>
+		<Row CivilizationType="CIVILIZATION_BLACK_KNIGHTS" CitizenName="LOC_CITIZEN_BLACK_KNIGHTS_FEMALE_9" Female="true"/>
+	</CivilizationCitizenNames>
+	<StarBiasResources></StarBiasResources>
+	<StarBiasTerrains>
+		<Row CivilizationType="CIVILIZATION_BLACK_KNIGHTS" TerrainType="TERRAIN_DESERT_HILLS" Tier="3"/>
+		<Row CivilizationType="CIVILIZATION_BLACK_KNIGHTS" TerrainType="TERRAIN_GRASS_HILLS" Tier="3"/>
+		<Row CivilizationType="CIVILIZATION_BLACK_KNIGHTS" TerrainType="TERRAIN_PLAINS_HILLS" Tier="3"/>
+		<Row CivilizationType="CIVILIZATION_BLACK_KNIGHTS" TerrainType="TERRAIN_TUNDRA_HILLS" Tier="3"/>
+	</StarBiasTerrains>
+	<Traits>
+		<Row TraitType="TRAIT_CIVILIZATION_DISTRICT_BLACK_KNIGHTS_COMMAND" Name="LOC_BLACK_KNIGHTS_COMMAND_NAME"/>
+		<Row TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_SAKURADITE" Name="LOC_IMPROVEMENT_SAKURADITE_NAME"/>
+		<Row TraitType="TRAIT_CIVILIZATION_BUILDING_BLACK_KNIGHTS_FOREIGN_MINISTRY" Name="LOC_BUILDING_BLACK_KNIGHTS_FOREIGN_MINISTRY_NAME"/>
+		<Row TraitType="TRAIT_CIVILIZATION_RIGHTEOUS_ALLY" Name="LOC_RIGHTEOUS_ALLY_NAME" Description="LOC_RIGHTEOUS_ALLY_DESCRIPTION"/>
+		<Row TraitType="TRAIT_CIVILIZATION_ZERO_REQUIEM" Name="LOC_ZERO_REQUIEM_NAME" Description="LOC_ZERO_REQUIEM_DESCRIPTION"/>
+	</Traits>
+	<TraitModifiers></TraitModifiers>
+	<Modifiers></Modifiers>
+	<ModifierArguments></ModifierArguments>
+</GameInfo>
+

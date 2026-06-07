@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Black_Knights_Text -->
+<!-- Author: z -->
+<!-- DateCreated: 6/5/2026 8:40:24 PM -->
+<GameData>
+	<LocalizedText>
+		<Replace Tag="LOC_CIVILIZATION_BLACK_KNIGHTS_NAME" Language="zh_Hans_CN">
+			<Text>黑色骑士团</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_ZERO_NAME" Language="zh_Hans_CN">
+			<Text>Zero</Text>
+		</Replace>
+		<Replace Tag="LOC_LEADER_ZERO_TEXT" Language="zh_Hans_CN">
+		<Text>旧世界的毁灭者与新世界的创造者，去把这个不美好的世界变成你想要的模样，为了娜娜莉</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_BLACK_KNIGHTS_ADJECTIVE" Language="zh_Hans_CN">
+			<Text>黑色骑士团的</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVILIZATION_BLACK_KNIGHTS_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>由布列塔尼亚抵抗组织发展而来的跨国势力集团，以其人才吸引力、外交手段和改装机甲闻名于世</Text>
+		</Replace>
+		<Replace Tag="LOC_BLACK_KNIGHTS_COMMAND_NAME" Language="zh_Hans_CN">
+			<Text>黑色骑士团指挥中枢</Text>
+		</Replace>
+		<Replace Tag="LOC_BLACK_KNIGHTS_COMMAND_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>黑色骑士团的指挥中心，替代市政广场，但造价减半。使此城每回合的忠诚度+8、从每位公民获得[Icon_Culture]+2，[Icon_Science]+1、使相邻区域从此获得的相邻加成+2。奖励一个[Icon_Governor]总督头衔。</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_BLACK_KNIGHTS_COMMAND_CULTURE" Language="zh_Hans_CN">
+			<Text>从每个相邻的黑色骑士团司令部区域获得[ICON_Culture]+2</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_BLACK_KNIGHTS_COMMAND_FAITH" Language="zh_Hans_CN">
+			<Text>从每个相邻的黑色骑士团司令部区域获得[ICON_Faith]+2</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_BLACK_KNIGHTS_COMMAND_GOLD" Language="zh_Hans_CN">
+			<Text>从每个相邻的黑色骑士团司令部区域获得[ICON_Gold]+2</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_BLACK_KNIGHTS_COMMAND_PRODUCTION" Language="zh_Hans_CN">
+			<Text>从每个相邻的黑色骑士团司令部区域获得[ICON_Production]+2</Text>
+		</Replace>
+		<Replace Tag="LOC_DISTRICT_BLACK_KNIGHTS_COMMAND_SCIENCE" Language="zh_Hans_CN">
+			<Text>从每个相邻的黑色骑士团司令部区域获得[ICON_Science]+2</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_BLACK_KNIGHTS_FOREIGN_MINISTRY_NAME" Language="zh_Hans_CN">
+			<Text>黑色骑士团外交部</Text>
+		</Replace>
+		<Replace Tag="LOC_BUILDING_BLACK_KNIGHTS_FOREIGN_MINISTRY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>替代原外交部，皇神乐耶与C.C积极开展国际外交活动，从每个被占领的外国城市中每回合获取[ICON_Favor]+5。征召城邦单位消耗的[ICON_Gold]为原来的四分之一。若您是城邦的宗主国，则城邦单位+6战斗力（征召单位包含在内）。每回合获得+4影响力。奖励一个[ICON_Governor]总督头衔。</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_SAKURADITE_NAME" Language="zh_Hans_CN">
+			<Text>SAKURADITE采集场</Text>
+		</Replace>
+		<Replace Tag="LOC_IMPROVEMENT_SAKURADITE_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>解锁建造者建造SAKURADITE采集场的能力。+1[ICON_Production]。-1魅力。只能建造在丘陵上。不能与相同设施相邻。研发工业化后解锁，研发蒸汽动力后+2[ICON_Production]，研发电力+2[ICON_Production]，研发零件规格化+2[ICON_Production]。从每个相邻的工业区、学院、港口、黑色骑士团司令部区域中获得+2[ICON_Production]加成，从每处相邻资源获得+1[ICON_Production]加成，每两处相邻区域为其提供1点[ICON_Production]加成。 </Text>
+		</Replace>
+		<Replace Tag="LOC_RIGHTEOUS_ALLY_NAME" Language="zh_Hans_CN">
+			<Text>正义的伙伴</Text>
+		</Replace>
+		<Replace Tag="LOC_RIGHTEOUS_ALLY_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>与军事实力（计算己方军事实力不包括从城邦征召的单位）领先自己或盟友数量少于自己的文明作战时，基于双方差距提升己方军事单位战斗力，盟友人口数能够减少国际会议投票所需外交支持点数。</Text>
+		</Replace>
+		<Replace Tag="LOC_ZERO_REQUIEM_NAME" Language="zh_Hans_CN">
+			<Text>零之镇魂曲</Text>
+		</Replace>
+		<Replace Tag="LOC_ZERO_REQUIEM_DESCRIPTION" Language="zh_Hans_CN">
+			<Text>破坏世界，然后创造世界</Text>
+		</Replace>
+		<Replace Tag="LOC_BLACK_KNIGHTS_CITY_1" Language="zh_Hans_CN">
+			<Text>蓬莱岛</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_KYOTO" Language="zh_Hans_CN">
+			<Text>京都</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_TOKYO" Language="zh_Hans_CN">
+			<Text>东京</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_OSAKA" Language="zh_Hans_CN">
+			<Text>大阪</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NAGOYA" Language="zh_Hans_CN">
+			<Text>名古屋</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_FUKUOKA" Language="zh_Hans_CN">
+			<Text>福冈</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_SENDAI" Language="zh_Hans_CN">
+			<Text>仙台</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_SHIZUOKA" Language="zh_Hans_CN">
+			<Text>静冈</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_OKAYAMA" Language="zh_Hans_CN">
+			<Text>冈山</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_TAKAMATSU" Language="zh_Hans_CN">
+			<Text>高松</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_YOKOHAMA" Language="zh_Hans_CN">
+			<Text>横滨</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_GIFU" Language="zh_Hans_CN">
+			<Text>岐阜</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NAGANO" Language="zh_Hans_CN">
+			<Text>长野</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_TAKASAKI" Language="zh_Hans_CN">
+			<Text>高崎</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_OTSU" Language="zh_Hans_CN">
+			<Text>大津</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_AOMORI" Language="zh_Hans_CN">
+			<Text>青森</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_FUKUSHIMA" Language="zh_Hans_CN">
+			<Text>福岛</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_MORIOKA" Language="zh_Hans_CN">
+			<Text>盛冈</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_HAKODATE" Language="zh_Hans_CN">
+			<Text>函馆</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_KOBE" Language="zh_Hans_CN">
+			<Text>神户</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_HAMAMATSU" Language="zh_Hans_CN">
+			<Text>滨松</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_OKAZAKI" Language="zh_Hans_CN">
+			<Text>冈崎</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_FUKUI" Language="zh_Hans_CN">
+			<Text>福井</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_YAMAGATA" Language="zh_Hans_CN">
+			<Text>山形</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_KAGOSHIMA" Language="zh_Hans_CN">
+			<Text>鹿儿岛</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_HIROSHIMA" Language="zh_Hans_CN">
+			<Text>广岛</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_HIMEJI" Language="zh_Hans_CN">
+			<Text>姫路</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_MATSUMOTO" Language="zh_Hans_CN">
+			<Text>松本</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_OTA" Language="zh_Hans_CN">
+			<Text>奥塔</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NUMAZU" Language="zh_Hans_CN">
+			<Text>沼津</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_SAPPORO" Language="zh_Hans_CN">
+			<Text>札幌</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NAGASAKI" Language="zh_Hans_CN">
+			<Text>长崎</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_TOTTORI" Language="zh_Hans_CN">
+			<Text>鸟取</Text>
+		</Replace>
+		<Replace Tag="LOC_CITY_NAME_NAGAHAMA" Language="zh_Hans_CN">
+			<Text>长滨</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_BLACK_KNIGHTS_MALE_1" Language="zh_Hans_CN">
+			<Text>扇要</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_BLACK_KNIGHTS_MALE_2" Language="zh_Hans_CN">
+			<Text>藤堂镜志明</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_BLACK_KNIGHTS_MALE_3" Language="zh_Hans_CN">
+			<Text>迪托哈特·利特</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_BLACK_KNIGHTS_MALE_4" Language="zh_Hans_CN">
+			<Text>朝比奈省悟</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_BLACK_KNIGHTS_MALE_5" Language="zh_Hans_CN">
+			<Text>洪古</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_BLACK_KNIGHTS_MALE_6" Language="zh_Hans_CN">
+			<Text>玉成真一郎</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_BLACK_KNIGHTS_MALE_7" Language="zh_Hans_CN">
+			<Text>仙波崚河</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_BLACK_KNIGHTS_MALE_8" Language="zh_Hans_CN">
+			<Text>卜部巧雪</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_BLACK_KNIGHTS_MALE_9" Language="zh_Hans_CN">
+			<Text>黎星刻</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_BLACK_KNIGHTS_FEMALE_1" Language="zh_Hans_CN">
+			<Text>C.C</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_BLACK_KNIGHTS_FEMALE_2" Language="zh_Hans_CN">
+			<Text>红月卡莲</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_BLACK_KNIGHTS_FEMALE_3" Language="zh_Hans_CN">
+			<Text>皇神乐耶</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_BLACK_KNIGHTS_FEMALE_4" Language="zh_Hans_CN">
+			<Text>筱崎咲世子</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_BLACK_KNIGHTS_FEMALE_5" Language="zh_Hans_CN">
+			<Text>拉克夏塔·恰拉</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_BLACK_KNIGHTS_FEMALE_6" Language="zh_Hans_CN">
+			<Text>千叶凪沙 </Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_BLACK_KNIGHTS_FEMALE_7" Language="zh_Hans_CN">
+			<Text>莎莉</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_BLACK_KNIGHTS_FEMALE_8" Language="zh_Hans_CN">
+			<Text>洛洛</Text>
+		</Replace>
+		<Replace Tag="LOC_CITIZEN_BLACK_KNIGHTS_FEMALE_9" Language="zh_Hans_CN">
+			<Text>周香凛</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVINFO_BLACK_KNIGHTS_LOCATION" Language="zh_Hans_CN">
+			<Text>东亚</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVINFO_BLACK_KNIGHTS_SIZE" Language="zh_Hans_CN">
+			<Text>5000平方公里</Text>
+		</Replace>
+		<Replace Tag="LOC_CIVINFO_BLACK_KNIGHTS_POPULATION" Language="zh_Hans_CN">
+			<Text>100万人</Text>
+		</Replace>
+	</LocalizedText>
+</GameData>

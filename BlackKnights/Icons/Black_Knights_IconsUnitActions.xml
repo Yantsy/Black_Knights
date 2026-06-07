@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Black_Knights_IconsUnitActions -->
+<!-- Author: z -->
+<!-- DateCreated: 6/5/2026 8:32:58 PM -->
+<GameData>
+	<IconTextureAtlases>
+		<Row Name="ATLAS_IMPROVEMENT_SAKURADITE" IconSize="38" Filename="IMPROVEMENT_SAKURADITE_38"/>
+		<Row Name="ATLAS_IMPROVEMENT_SAKURADITE" IconSize="50" Filename="IMPROVEMENT_SAKURADITE_50"/>
+		<Row Name="ATLAS_IMPROVEMENT_SAKURADITE" IconSize="80" Filename="IMPROVEMENT_SAKURADITE_80"/>
+		<Row Name="ATLAS_IMPROVEMENT_SAKURADITE" IconSize="256" Filename="IMPROVEMENT_SAKURADITE_256"/>
+	</IconTextureAtlases>
+	<IconDefinitions>
+		<Row Name="ICON_IMPROVEMENT_SAKURADITE" Atlas="ATLAS_IMPROVEMENT_SAKURADITE" Index="0"/>
+	</IconDefinitions>
+</GameData>

@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>1</major>
+		<minor>0</minor>
+		<build>0</build>
+		<revision>0</revision>
+	</m_Version>
+	<m_ClassName text="UITexture"/>
+	<m_PackageName text="BlackKnightsTextures"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="BLACK_KNIGHTS_SIGN_128"/>
+			<m_ObjectName text="BLACK_KNIGHTS_SIGN_128"/>
+		</Element>
+		<Element>
+			<m_EntryID text="BLACK_KNIGHTS_SIGN_200"/>
+			<m_ObjectName text="BLACK_KNIGHTS_SIGN_200"/>
+		</Element>
+		<Element>
+			<m_EntryID text="BLACK_KNIGHTS_SIGN_22"/>
+			<m_ObjectName text="BLACK_KNIGHTS_SIGN_22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="BLACK_KNIGHTS_SIGN_256"/>
+			<m_ObjectName text="BLACK_KNIGHTS_SIGN_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="BLACK_KNIGHTS_SIGN_30"/>
+			<m_ObjectName text="BLACK_KNIGHTS_SIGN_30"/>
+		</Element>
+		<Element>
+			<m_EntryID text="BLACK_KNIGHTS_SIGN_32"/>
+			<m_ObjectName text="BLACK_KNIGHTS_SIGN_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="BLACK_KNIGHTS_SIGN_36"/>
+			<m_ObjectName text="BLACK_KNIGHTS_SIGN_36"/>
+		</Element>
+		<Element>
+			<m_EntryID text="BLACK_KNIGHTS_SIGN_44"/>
+			<m_ObjectName text="BLACK_KNIGHTS_SIGN_44"/>
+		</Element>
+		<Element>
+			<m_EntryID text="BLACK_KNIGHTS_SIGN_45"/>
+			<m_ObjectName text="BLACK_KNIGHTS_SIGN_45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="BLACK_KNIGHTS_SIGN_48"/>
+			<m_ObjectName text="BLACK_KNIGHTS_SIGN_48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="BLACK_KNIGHTS_SIGN_50"/>
+			<m_ObjectName text="BLACK_KNIGHTS_SIGN_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="BLACK_KNIGHTS_SIGN_64"/>
+			<m_ObjectName text="BLACK_KNIGHTS_SIGN_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="BLACK_KNIGHTS_SIGN_80"/>
+			<m_ObjectName text="BLACK_KNIGHTS_SIGN_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="BUILDING_BLACK_KNIGHTS_FOREIGN_MINISTRY_128"/>
+			<m_ObjectName text="BUILDING_BLACK_KNIGHTS_FOREIGN_MINISTRY_128"/>
+		</Element>
+		<Element>
+			<m_EntryID text="BUILDING_BLACK_KNIGHTS_FOREIGN_MINISTRY_256"/>
+			<m_ObjectName text="BUILDING_BLACK_KNIGHTS_FOREIGN_MINISTRY_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="BUILDING_BLACK_KNIGHTS_FOREIGN_MINISTRY_32"/>
+			<m_ObjectName text="BUILDING_BLACK_KNIGHTS_FOREIGN_MINISTRY_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="BUILDING_BLACK_KNIGHTS_FOREIGN_MINISTRY_38"/>
+			<m_ObjectName text="BUILDING_BLACK_KNIGHTS_FOREIGN_MINISTRY_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="BUILDING_BLACK_KNIGHTS_FOREIGN_MINISTRY_50"/>
+			<m_ObjectName text="BUILDING_BLACK_KNIGHTS_FOREIGN_MINISTRY_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="BUILDING_BLACK_KNIGHTS_FOREIGN_MINISTRY_80"/>
+			<m_ObjectName text="BUILDING_BLACK_KNIGHTS_FOREIGN_MINISTRY_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DISTRICT_BLACK_KNIGHTS_COMMAND_128"/>
+			<m_ObjectName text="DISTRICT_BLACK_KNIGHTS_COMMAND_128"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DISTRICT_BLACK_KNIGHTS_COMMAND_22"/>
+			<m_ObjectName text="DISTRICT_BLACK_KNIGHTS_COMMAND_22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DISTRICT_BLACK_KNIGHTS_COMMAND_256"/>
+			<m_ObjectName text="DISTRICT_BLACK_KNIGHTS_COMMAND_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DISTRICT_BLACK_KNIGHTS_COMMAND_32"/>
+			<m_ObjectName text="DISTRICT_BLACK_KNIGHTS_COMMAND_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DISTRICT_BLACK_KNIGHTS_COMMAND_38"/>
+			<m_ObjectName text="DISTRICT_BLACK_KNIGHTS_COMMAND_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DISTRICT_BLACK_KNIGHTS_COMMAND_50"/>
+			<m_ObjectName text="DISTRICT_BLACK_KNIGHTS_COMMAND_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="DISTRICT_BLACK_KNIGHTS_COMMAND_80"/>
+			<m_ObjectName text="DISTRICT_BLACK_KNIGHTS_COMMAND_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMPROVEMENT_SAKURADITE_256"/>
+			<m_ObjectName text="IMPROVEMENT_SAKURADITE_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMPROVEMENT_SAKURADITE_38"/>
+			<m_ObjectName text="IMPROVEMENT_SAKURADITE_38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMPROVEMENT_SAKURADITE_50"/>
+			<m_ObjectName text="IMPROVEMENT_SAKURADITE_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="IMPROVEMENT_SAKURADITE_80"/>
+			<m_ObjectName text="IMPROVEMENT_SAKURADITE_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ZARO_BACK_SELECTION_"/>
+			<m_ObjectName text="ZARO_BACK_SELECTION_"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ZERO_BACK_DILOPMACY_"/>
+			<m_ObjectName text="ZERO_BACK_DILOPMACY_"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ZERO_BACK_LOADING_"/>
+			<m_ObjectName text="ZERO_BACK_LOADING_"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ZERO_FRONT_DILOPMACY_"/>
+			<m_ObjectName text="ZERO_FRONT_DILOPMACY_"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ZERO_FRONT_IMG_256"/>
+			<m_ObjectName text="ZERO_FRONT_IMG_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ZERO_FRONT_IMG_32"/>
+			<m_ObjectName text="ZERO_FRONT_IMG_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ZERO_FRONT_IMG_45"/>
+			<m_ObjectName text="ZERO_FRONT_IMG_45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ZERO_FRONT_IMG_48"/>
+			<m_ObjectName text="ZERO_FRONT_IMG_48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ZERO_FRONT_IMG_50"/>
+			<m_ObjectName text="ZERO_FRONT_IMG_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ZERO_FRONT_IMG_55"/>
+			<m_ObjectName text="ZERO_FRONT_IMG_55"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ZERO_FRONT_IMG_64"/>
+			<m_ObjectName text="ZERO_FRONT_IMG_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ZERO_FRONT_IMG_80"/>
+			<m_ObjectName text="ZERO_FRONT_IMG_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ZERO_FRONT_SELECTION_"/>
+			<m_ObjectName text="ZERO_FRONT_SELECTION_"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ZERO_FRONT_LOADING_"/>
+			<m_ObjectName text="ZERO_FRONT_LOADING_"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ZERO_HEAD_256"/>
+			<m_ObjectName text="ZERO_HEAD_256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ZERO_HEAD_32"/>
+			<m_ObjectName text="ZERO_HEAD_32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ZERO_HEAD_45"/>
+			<m_ObjectName text="ZERO_HEAD_45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ZERO_HEAD_48"/>
+			<m_ObjectName text="ZERO_HEAD_48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ZERO_HEAD_50"/>
+			<m_ObjectName text="ZERO_HEAD_50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ZERO_HEAD_55"/>
+			<m_ObjectName text="ZERO_HEAD_55"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ZERO_HEAD_64"/>
+			<m_ObjectName text="ZERO_HEAD_64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ZERO_HEAD_80"/>
+			<m_ObjectName text="ZERO_HEAD_80"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+		<Element>LINUX</Element>
+		<Element>XBONE</Element>
+		<Element>PS4</Element>
+		<Element>SWITCH</Element>
+		<Element>STADIA</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>
+

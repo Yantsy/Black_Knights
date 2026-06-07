@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Black_Knights_IconsLeaders -->
+<!-- Author: z -->
+<!-- DateCreated: 6/5/2026 8:32:25 PM -->
+<?xml version="1.0" encoding="UTF-8" ?>
+<GameData>
+	<IconTextureAtlases>
+		<Row Name="ATLAS_ZERO_HEAD" IconSize="32" Filename="ZERO_HEAD_32"/>
+		<Row Name="ATLAS_ZERO_HEAD" IconSize="45" Filename="ZERO_HEAD_45"/>
+		<Row Name="ATLAS_ZERO_HEAD" IconSize="48" Filename="ZERO_HEAD_48"/>
+		<Row Name="ATLAS_ZERO_HEAD" IconSize="50" Filename="ZERO_HEAD_50"/>
+		<Row Name="ATLAS_ZERO_HEAD" IconSize="55" Filename="ZERO_HEAD_55"/>
+		<Row Name="ATLAS_ZERO_HEAD" IconSize="64" Filename="ZERO_HEAD_64"/>
+		<Row Name="ATLAS_ZERO_HEAD" IconSize="80" Filename="ZERO_HEAD_80"/>
+		<Row Name="ATLAS_ZERO_HEAD" IconSize="256" Filename="ZERO_HEAD_256"/>
+	</IconTextureAtlases>
+	<IconDefinitions>
+		<Row Name="ICON_ZERO_HEAD" Atlas="ATLAS_ZERO_HEAD" Index="0"/>
+	</IconDefinitions>
+</GameData>

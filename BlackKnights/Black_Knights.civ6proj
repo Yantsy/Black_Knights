@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Default</Configuration>
+    <Name>Black_Knights</Name>
+    <Guid>1304ba69-042b-4fa1-9251-65fcadfff753</Guid>
+    <ProjectGuid>af9d4424-832f-4bf0-8203-770f71a7f2cb</ProjectGuid>
+    <ModVersion>1</ModVersion>
+    <Teaser>This is a brief description of the mod.</Teaser>
+    <Description>This is a brief description of the mod.</Description>
+    <Authors>zZ</Authors>
+    <SpecialThanks>
+    </SpecialThanks>
+    <AffectsSavedGames>true</AffectsSavedGames>
+    <SupportsSinglePlayer>true</SupportsSinglePlayer>
+    <SupportsMultiplayer>true</SupportsMultiplayer>
+    <SupportsHotSeat>true</SupportsHotSeat>
+    <CompatibleVersions>1.2,2.0</CompatibleVersions>
+    <AssemblyName>BlackKnights</AssemblyName>
+    <RootNamespace>BlackKnights</RootNamespace>
+    <FrontEndActionData><![CDATA[<FrontEndActions><UpdateDatabase id="config"><File>Data/Black_Knights_Config.xml</File></UpdateDatabase><UpdateText id="text"><File>Text/Black_Knights_Text.xml</File></UpdateText><UpdateIcons id="icon"><File>Icons/Black_Knights_IconsBuildings.xml</File><File>Icons/Black_Knights_IconsCivilizations.xml</File><File>Icons/Black_Knights_IconsLeaders.xml</File><File>Icons/Black_Knights_IconsUnitActions.xml</File><File>Icons/Black_Knights_IconsDistricts.xml</File></UpdateIcons><UpdateArt id="art"><File>(Mod Art Dependency File)</File></UpdateArt></FrontEndActions>]]></FrontEndActionData>
+    <InGameActionData><![CDATA[<InGameActions><UpdateDatabase id="dataBase"><File>Data/Black_Knights_Buildings.xml</File><File>Data/Black_Knights_Civilization.xml</File><File>Data/Black_Knights_Improvements.xml</File><File>Data/Black_Knights_Leaders.xml</File><File>Data/Black_Knights_Districts.xml</File></UpdateDatabase><UpdateText id="text"><File>Text/Black_Knights_Text.xml</File></UpdateText><UpdateIcons id="icon"><File>Icons/Black_Knights_IconsBuildings.xml</File><File>Icons/Black_Knights_IconsCivilizations.xml</File><File>Icons/Black_Knights_IconsLeaders.xml</File><File>Icons/Black_Knights_IconsUnitActions.xml</File><File>Icons/Black_Knights_IconsDistricts.xml</File></UpdateIcons><UpdateArt id="art"><File>(Mod Art Dependency File)</File></UpdateArt></InGameActions>]]></InGameActionData>
+    <AssociationData><![CDATA[<Associations>
+  <Dependency type="Dlc" title="Expansion: Gathering Storm" id="4873eb62-8ccc-4574-b784-dda455e74e68" />
+  <Dependency type="Dlc" title="Expansion: Rise and Fall" id="1B28771A-C749-434B-9053-D1380C553DE9" />
+</Associations>]]></AssociationData>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="Assets" />
+    <Folder Include="Icons" />
+    <Folder Include="Data" />
+    <Folder Include="GamePlayScript" />
+    <Folder Include="Artdefs" />
+    <Folder Include="Text" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Artdefs\Buildings.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Artdefs\Civilizations.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Artdefs\Districts.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Artdefs\FallbackLeaders.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Artdefs\Improvements.artdef">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Black_Knights.Art.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\Black_Knights_Buildings.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\Black_Knights_Civilization.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\Black_Knights_Config.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\Black_Knights_Districts.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\Black_Knights_Improvements.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\Black_Knights_Leaders.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Data\Black_Knights_Units.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Icons\Black_Knights_IconsBuildings.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Icons\Black_Knights_IconsCivilizations.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Icons\Black_Knights_IconsDistricts.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Icons\Black_Knights_IconsLeaders.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Icons\Black_Knights_IconsUnitActions.xml">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Text\Black_Knights_Text.xml">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)Civ6.targets" />
+</Project>

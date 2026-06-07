@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Black_Knights_IconsCivilizations -->
+<!-- Author: z -->
+<!-- DateCreated: 6/5/2026 8:31:11 PM -->
+<GameData>
+	<IconTextureAtlases>
+		<Row Name="ATLAS_BLACK_KNIGHTS_SIGN" IconSize="22" Filename="BLACK_KNIGHTS_SIGN_22"/>
+		<Row Name="ATLAS_BLACK_KNIGHTS_SIGN" IconSize="30" Filename="BLACK_KNIGHTS_SIGN_30"/>
+		<Row Name="ATLAS_BLACK_KNIGHTS_SIGN" IconSize="32" Filename="BLACK_KNIGHTS_SIGN_32"/>
+		<Row Name="ATLAS_BLACK_KNIGHTS_SIGN" IconSize="36" Filename="BLACK_KNIGHTS_SIGN_36"/>
+		<Row Name="ATLAS_BLACK_KNIGHTS_SIGN" IconSize="44" Filename="BLACK_KNIGHTS_SIGN_44"/>
+		<Row Name="ATLAS_BLACK_KNIGHTS_SIGN" IconSize="45" Filename="BLACK_KNIGHTS_SIGN_45"/>
+		<Row Name="ATLAS_BLACK_KNIGHTS_SIGN" IconSize="48" Filename="BLACK_KNIGHTS_SIGN_48"/>
+		<Row Name="ATLAS_BLACK_KNIGHTS_SIGN" IconSize="50" Filename="BLACK_KNIGHTS_SIGN_50"/>
+		<Row Name="ATLAS_BLACK_KNIGHTS_SIGN" IconSize="64" Filename="BLACK_KNIGHTS_SIGN_64"/>
+		<Row Name="ATLAS_BLACK_KNIGHTS_SIGN" IconSize="80" Filename="BLACK_KNIGHTS_SIGN_80"/>
+		<Row Name="ATLAS_BLACK_KNIGHTS_SIGN" IconSize="128" Filename="BLACK_KNIGHTS_SIGN_128"/>
+		<Row Name="ATLAS_BLACK_KNIGHTS_SIGN" IconSize="200" Filename="BLACK_KNIGHTS_SIGN_200"/>
+		<Row Name="ATLAS_BLACK_KNIGHTS_SIGN" IconSize="256" Filename="BLACK_KNIGHTS_SIGN_256"/>
+	</IconTextureAtlases>
+	<IconDefinitions>
+		<Row Name="ICON_BLACK_KNIGHTS_SIGN" Atlas="ATLAS_BLACK_KNIGHTS_SIGN" Index="0"/>
+	</IconDefinitions>
+</GameData>
