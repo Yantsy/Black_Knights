@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Black_Knights_Colors -->
+<!-- Author: z -->
+<!-- DateCreated: 6/8/2026 10:42:41 AM -->
+<Database>
+    <PlayerColors>
+		<Row>
+			<Type>LEADER_ZERO</Type>
+			<Usage>Unique</Usage>
+			<PrimaryColor>COLOR_GRAY_BK</PrimaryColor>
+			<Alt1PrimaryColor>COLOR_BLUE_BK_DEP</Alt1PrimaryColor>
+			<Alt2PrimaryColor>COLOR_PURPLE_BK_DEP</Alt2PrimaryColor>
+			<Alt3PrimaryColor>COLOR_RED_BK_DEP</Alt3PrimaryColor>
+			<TextColor>COLOR_PLAYER_WHITE_TEXT</TextColor>
+		</Row>
+	</PlayerColors>
+</Database>

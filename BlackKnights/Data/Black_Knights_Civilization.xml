@@ -37,23 +37,22 @@
 	</CivilizationInfo>
 	<Colors>
 		<Row>
-			<Type>COLOR_PLAYER_BLACK_KNIGHTS_PRIMARY</Type>
-			<Color>236,30,24,255</Color>
+			<Type>COLOR_GRAY_BK</Type>
+			<Color>68,68,68,255</Color>
 		</Row>
 		<Row>
-			<Type>COLOR_PLAYER_BLACK_KNIGHTS_SECONDARY</Type>
-			<Color>243,49,44,255</Color>
+			<Type>COLOR_BLUE_BK_DEP</Type>
+			<Color>11,83,148,255</Color>
+		</Row>
+		<Row>
+			<Type>COLOR_PURPLE_BK_DEP</Type>
+			<Color>53,28,117,255</Color>
+		</Row>
+			<Row>
+			<Type>COLOR_RED_BK_DEP</Type>
+			<Color>116,27,71,255</Color>
 		</Row>
 	</Colors>
-	<PlayerColors>
-		<Row>
-			<Type>LEADER_ZERO</Type>
-			<Usage>Unique</Usage>
-			<PrimaryColor>COLOR_PLAYER_BLACK_KNIGHTS_PRIMARY</PrimaryColor>
-			<SecondaryColor>COLOR_PLAYER_BLACK_KNIGHTS_SECONDARY</SecondaryColor>
-			<TextColor>COLOR_PLAYER_WHITE_TEXT</TextColor>
-		</Row>
-	</PlayerColors>
 	<LoadingInfo>
 		<Row LeaderType="LEADER_ZERO" ForegroundImage="ZERO_FRONT_LOADING_.dds" BackgroundImage="ZERO_BACK_LOADING_.dds"
 		EraText="LOC_LOADING_INFO_LEADER_DEFAULT" PlayDawnOfManAudio="1" LeaderText="LOC_LEADER_ZERO_TEXT"/>
@@ -118,12 +117,12 @@
 		<Row CivilizationType="CIVILIZATION_BLACK_KNIGHTS" CitizenName="LOC_CITIZEN_BLACK_KNIGHTS_FEMALE_9" Female="true"/>
 	</CivilizationCitizenNames>
 	<StarBiasResources></StarBiasResources>
-	<StarBiasTerrains>
+	<StartBiasTerrains>
 		<Row CivilizationType="CIVILIZATION_BLACK_KNIGHTS" TerrainType="TERRAIN_DESERT_HILLS" Tier="3"/>
 		<Row CivilizationType="CIVILIZATION_BLACK_KNIGHTS" TerrainType="TERRAIN_GRASS_HILLS" Tier="3"/>
 		<Row CivilizationType="CIVILIZATION_BLACK_KNIGHTS" TerrainType="TERRAIN_PLAINS_HILLS" Tier="3"/>
 		<Row CivilizationType="CIVILIZATION_BLACK_KNIGHTS" TerrainType="TERRAIN_TUNDRA_HILLS" Tier="3"/>
-	</StarBiasTerrains>
+	</StartBiasTerrains>
 	<TraitModifiers></TraitModifiers>
 	<Modifiers></Modifiers>
 	<ModifierArguments></ModifierArguments>

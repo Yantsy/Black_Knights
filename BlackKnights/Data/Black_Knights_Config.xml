@@ -16,7 +16,7 @@
 			<CivilizationAbilityIcon>ICON_BLACK_KNIGHTS_SIGN</CivilizationAbilityIcon>
 			<LeaderAbilityName>LOC_ZERO_REQUIEM_NAME</LeaderAbilityName>
 			<LeaderAbilityDescription>LOC_ZERO_REQUIEM_DESCRIPTION</LeaderAbilityDescription>
-			<LeaderAbilityIcon>ICON_ZERO_FRONT_IMG</LeaderAbilityIcon>
+			<LeaderAbilityIcon>ICON_ZERO_HEAD</LeaderAbilityIcon>
 			<Portrait>ZERO_FRONT_SELECTION_</Portrait>
 			<PortraitBackground>ZARO_BACK_SELECTION_</PortraitBackground>
 		</Row>
@@ -34,7 +34,7 @@
 			<CivilizationAbilityIcon>ICON_BLACK_KNIGHTS_SIGN</CivilizationAbilityIcon>
 			<LeaderAbilityName>LOC_ZERO_REQUIEM_NAME</LeaderAbilityName>
 			<LeaderAbilityDescription>LOC_ZERO_REQUIEM_DESCRIPTION</LeaderAbilityDescription>
-			<LeaderAbilityIcon>ICON_ZERO_FRONT_IMG</LeaderAbilityIcon>
+			<LeaderAbilityIcon>ICON_ZERO_HEAD</LeaderAbilityIcon>
 			<Portrait>ZERO_FRONT_SELECTION_</Portrait>
 			<PortraitBackground>ZARO_BACK_SELECTION_</PortraitBackground>
 		</Row>
@@ -51,7 +51,7 @@
 			<CivilizationAbilityIcon>ICON_BLACK_KNIGHTS_SIGN</CivilizationAbilityIcon>
 			<LeaderAbilityName>LOC_ZERO_REQUIEM_NAME</LeaderAbilityName>
 			<LeaderAbilityDescription>LOC_ZERO_REQUIEM_DESCRIPTION</LeaderAbilityDescription>
-			<LeaderAbilityIcon>ICON_ZERO_FRONT_IMG</LeaderAbilityIcon>
+			<LeaderAbilityIcon>ICON_ZERO_HEAD</LeaderAbilityIcon>
 			<Portrait>ZERO_FRONT_SELECTION_</Portrait>
 			<PortraitBackground>ZARO_BACK_SELECTION_</PortraitBackground>
 		</Row>
