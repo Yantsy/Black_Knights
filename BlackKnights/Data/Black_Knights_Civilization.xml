@@ -35,24 +35,6 @@
 		<Row CivilizationType="CIVILIZATION_BLACK_KNIGHTS" Header="LOC_CIVINFO_POPULATION" Caption="LOC_CIVINFO_BLACK_KNIGHTS_POPULATION" SortIndex="30"/>
 		<Row CivilizationType="CIVILIZATION_BLACK_KNIGHTS" Header="LOC_CIVINFO_CAPITAL" Caption="LOC_BLACK_KNIGHTS_CITY_1" SortIndex="40"/>
 	</CivilizationInfo>
-	<Colors>
-		<Row>
-			<Type>COLOR_GRAY_BK</Type>
-			<Color>68,68,68,255</Color>
-		</Row>
-		<Row>
-			<Type>COLOR_BLUE_BK_DEP</Type>
-			<Color>11,83,148,255</Color>
-		</Row>
-		<Row>
-			<Type>COLOR_PURPLE_BK_DEP</Type>
-			<Color>53,28,117,255</Color>
-		</Row>
-			<Row>
-			<Type>COLOR_RED_BK_DEP</Type>
-			<Color>116,27,71,255</Color>
-		</Row>
-	</Colors>
 	<LoadingInfo>
 		<Row LeaderType="LEADER_ZERO" ForegroundImage="ZERO_FRONT_LOADING_.dds" BackgroundImage="ZERO_BACK_LOADING_.dds"
 		EraText="LOC_LOADING_INFO_LEADER_DEFAULT" PlayDawnOfManAudio="1" LeaderText="LOC_LEADER_ZERO_TEXT"/>

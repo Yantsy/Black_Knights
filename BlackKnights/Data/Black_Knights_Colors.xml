@@ -3,12 +3,30 @@
 <!-- Author: z -->
 <!-- DateCreated: 6/8/2026 10:42:41 AM -->
 <Database>
+	<Colors>
+		<Row>
+			<Type>COLOR_GRAY_BK</Type>
+			<Color>68,68,68,255</Color>
+		</Row>
+		<Row>
+			<Type>COLOR_BLUE_BK_DEP</Type>
+			<Color>11,83,148,255</Color>
+		</Row>
+		<Row>
+			<Type>COLOR_PURPLE_BK_DEP</Type>
+			<Color>53,28,117,255</Color>
+		</Row>
+			<Row>
+			<Type>COLOR_RED_BK_DEP</Type>
+			<Color>116,27,71,255</Color>
+		</Row>
+	</Colors>
     <PlayerColors>
 		<Row>
 			<Type>LEADER_ZERO</Type>
 			<Usage>Unique</Usage>
-			<PrimaryColor>COLOR_GRAY_BK</PrimaryColor>
-			<Alt1PrimaryColor>COLOR_BLUE_BK_DEP</Alt1PrimaryColor>
+			<PrimaryColor>COLOR_BLUE_BK_DEP</PrimaryColor>
+			<Alt1PrimaryColor>COLOR_GRAY_BK</Alt1PrimaryColor>
 			<Alt2PrimaryColor>COLOR_PURPLE_BK_DEP</Alt2PrimaryColor>
 			<Alt3PrimaryColor>COLOR_RED_BK_DEP</Alt3PrimaryColor>
 			<TextColor>COLOR_PLAYER_WHITE_TEXT</TextColor>

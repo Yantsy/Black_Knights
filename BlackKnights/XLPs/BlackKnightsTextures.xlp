@@ -138,14 +138,6 @@
 			<m_ObjectName text="ZERO_BACK_DILOPMACY_"/>
 		</Element>
 		<Element>
-			<m_EntryID text="ZERO_BACK_LOADING_"/>
-			<m_ObjectName text="ZERO_BACK_LOADING_"/>
-		</Element>
-		<Element>
-			<m_EntryID text="ZERO_FRONT_DILOPMACY_"/>
-			<m_ObjectName text="ZERO_FRONT_DILOPMACY_"/>
-		</Element>
-		<Element>
 			<m_EntryID text="ZERO_FRONT_IMG_256"/>
 			<m_ObjectName text="ZERO_FRONT_IMG_256"/>
 		</Element>
@@ -182,10 +174,6 @@
 			<m_ObjectName text="ZERO_FRONT_SELECTION_"/>
 		</Element>
 		<Element>
-			<m_EntryID text="ZERO_FRONT_LOADING_"/>
-			<m_ObjectName text="ZERO_FRONT_LOADING_"/>
-		</Element>
-		<Element>
 			<m_EntryID text="ZERO_HEAD_256"/>
 			<m_ObjectName text="ZERO_HEAD_256"/>
 		</Element>
@@ -216,6 +204,14 @@
 		<Element>
 			<m_EntryID text="ZERO_HEAD_80"/>
 			<m_ObjectName text="ZERO_HEAD_80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ZERO_BACK_LOADING_"/>
+			<m_ObjectName text="ZERO_BACK_LOADING_"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ZERO_FRONT_LOADING_"/>
+			<m_ObjectName text="ZERO_FRONT_LOADING_"/>
 		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>
