@@ -15,6 +15,6 @@
 		<Row Name="ATLAS_ZERO_HEAD" IconSize="256" Filename="ZERO_HEAD_256"/>
 	</IconTextureAtlases>
 	<IconDefinitions>
-		<Row Name="ICON_ZERO_HEAD" Atlas="ATLAS_ZERO_HEAD" Index="0"/>
+		<Row Name="ICON_LEADER_ZERO" Atlas="ATLAS_ZERO_HEAD" Index="0"/>
 	</IconDefinitions>
 </GameData>

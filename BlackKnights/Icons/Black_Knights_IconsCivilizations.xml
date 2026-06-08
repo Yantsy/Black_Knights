@@ -19,6 +19,6 @@
 		<Row Name="ATLAS_BLACK_KNIGHTS_SIGN" IconSize="256" Filename="BLACK_KNIGHTS_SIGN_256"/>
 	</IconTextureAtlases>
 	<IconDefinitions>
-		<Row Name="ICON_BLACK_KNIGHTS_SIGN" Atlas="ATLAS_BLACK_KNIGHTS_SIGN" Index="0"/>
+		<Row Name="ICON_CIVILIZATION_BLACK_KNIGHTS" Atlas="ATLAS_BLACK_KNIGHTS_SIGN" Index="0"/>
 	</IconDefinitions>
 </GameData>

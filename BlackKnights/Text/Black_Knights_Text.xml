@@ -17,7 +17,7 @@
 			<Text>黑色骑士团的</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_BLACK_KNIGHTS_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>由布列塔尼亚抵抗组织发展而来的跨国势力集团，以其人才吸引力、外交手段和改装机甲闻名于世</Text>
+			<Text>黑色骑士团</Text>
 		</Replace>
 		<Replace Tag="LOC_BLACK_KNIGHTS_COMMAND_NAME" Language="zh_Hans_CN">
 			<Text>黑色骑士团指挥中枢</Text>

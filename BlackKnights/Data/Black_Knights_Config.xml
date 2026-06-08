@@ -8,15 +8,15 @@
 			<CivilizationType>CIVILIZATION_BLACK_KNIGHTS</CivilizationType>
 			<LeaderType>LEADER_ZERO</LeaderType>
 			<CivilizationName>LOC_CIVILIZATION_BLACK_KNIGHTS_NAME</CivilizationName>
-			<CivilizationIcon>ICON_BLACK_KNIGHTS_SIGN</CivilizationIcon>
+			<CivilizationIcon>ICON_CIVILIZATION_BLACK_KNIGHTS</CivilizationIcon>
 			<LeaderName>LOC_LEADER_ZERO_NAME</LeaderName>
-			<LeaderIcon>ICON_ZERO_HEAD</LeaderIcon>
+			<LeaderIcon>ICON_LEADER_ZERO</LeaderIcon>
 			<CivilizationAbilityName>LOC_RIGHTEOUS_ALLY_NAME</CivilizationAbilityName>
 			<CivilizationAbilityDescription>LOC_RIGHTEOUS_ALLY_DESCRIPTION</CivilizationAbilityDescription>
-			<CivilizationAbilityIcon>ICON_BLACK_KNIGHTS_SIGN</CivilizationAbilityIcon>
+			<CivilizationAbilityIcon>ICON_CIVILIZATION_BLACK_KNIGHTS</CivilizationAbilityIcon>
 			<LeaderAbilityName>LOC_ZERO_REQUIEM_NAME</LeaderAbilityName>
 			<LeaderAbilityDescription>LOC_ZERO_REQUIEM_DESCRIPTION</LeaderAbilityDescription>
-			<LeaderAbilityIcon>ICON_ZERO_HEAD</LeaderAbilityIcon>
+			<LeaderAbilityIcon>ICON_LEADER_ZERO</LeaderAbilityIcon>
 			<Portrait>ZERO_FRONT_SELECTION_</Portrait>
 			<PortraitBackground>ZARO_BACK_SELECTION_</PortraitBackground>
 		</Row>
@@ -26,15 +26,15 @@
 			<CivilizationType>CIVILIZATION_BLACK_KNIGHTS</CivilizationType>
 			<LeaderType>LEADER_ZERO</LeaderType>
 			<CivilizationName>LOC_CIVILIZATION_BLACK_KNIGHTS_NAME</CivilizationName>
-			<CivilizationIcon>ICON_BLACK_KNIGHTS_SIGN</CivilizationIcon>
+			<CivilizationIcon>ICON_CIVILIZATION_BLACK_KNIGHTS</CivilizationIcon>
 			<LeaderName>LOC_LEADER_ZERO_NAME</LeaderName>
-			<LeaderIcon>ICON_ZERO_HEAD</LeaderIcon>
+			<LeaderIcon>ICON_LEADER_ZERO</LeaderIcon>
 			<CivilizationAbilityName>LOC_RIGHTEOUS_ALLY_NAME</CivilizationAbilityName>
 			<CivilizationAbilityDescription>LOC_RIGHTEOUS_ALLY_DESCRIPTION</CivilizationAbilityDescription>
-			<CivilizationAbilityIcon>ICON_BLACK_KNIGHTS_SIGN</CivilizationAbilityIcon>
+			<CivilizationAbilityIcon>ICON_CIVILIZATION_BLACK_KNIGHTS</CivilizationAbilityIcon>
 			<LeaderAbilityName>LOC_ZERO_REQUIEM_NAME</LeaderAbilityName>
 			<LeaderAbilityDescription>LOC_ZERO_REQUIEM_DESCRIPTION</LeaderAbilityDescription>
-			<LeaderAbilityIcon>ICON_ZERO_HEAD</LeaderAbilityIcon>
+			<LeaderAbilityIcon>ICON_LEADER_ZERO</LeaderAbilityIcon>
 			<Portrait>ZERO_FRONT_SELECTION_</Portrait>
 			<PortraitBackground>ZARO_BACK_SELECTION_</PortraitBackground>
 		</Row>
@@ -43,15 +43,15 @@
 			<CivilizationType>CIVILIZATION_BLACK_KNIGHTS</CivilizationType>
 			<LeaderType>LEADER_ZERO</LeaderType>
 			<CivilizationName>LOC_CIVILIZATION_BLACK_KNIGHTS_NAME</CivilizationName>
-			<CivilizationIcon>ICON_BLACK_KNIGHTS_SIGN</CivilizationIcon>
+			<CivilizationIcon>ICON_CIVILIZATION_BLACK_KNIGHTS</CivilizationIcon>
 			<LeaderName>LOC_LEADER_ZERO_NAME</LeaderName>
-			<LeaderIcon>ICON_ZERO_HEAD</LeaderIcon>
+			<LeaderIcon>ICON_LEADER_ZERO</LeaderIcon>
 			<CivilizationAbilityName>LOC_RIGHTEOUS_ALLY_NAME</CivilizationAbilityName>
 			<CivilizationAbilityDescription>LOC_RIGHTEOUS_ALLY_DESCRIPTION</CivilizationAbilityDescription>
-			<CivilizationAbilityIcon>ICON_BLACK_KNIGHTS_SIGN</CivilizationAbilityIcon>
+			<CivilizationAbilityIcon>ICON_CIVILIZATION_BLACK_KNIGHTS</CivilizationAbilityIcon>
 			<LeaderAbilityName>LOC_ZERO_REQUIEM_NAME</LeaderAbilityName>
 			<LeaderAbilityDescription>LOC_ZERO_REQUIEM_DESCRIPTION</LeaderAbilityDescription>
-			<LeaderAbilityIcon>ICON_ZERO_HEAD</LeaderAbilityIcon>
+			<LeaderAbilityIcon>ICON_LEADER_ZERO</LeaderAbilityIcon>
 			<Portrait>ZERO_FRONT_SELECTION_</Portrait>
 			<PortraitBackground>ZARO_BACK_SELECTION_</PortraitBackground>
 		</Row>

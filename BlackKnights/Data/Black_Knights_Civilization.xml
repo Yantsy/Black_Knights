@@ -104,6 +104,7 @@
 		<Row CivilizationType="CIVILIZATION_BLACK_KNIGHTS" TerrainType="TERRAIN_GRASS_HILLS" Tier="3"/>
 		<Row CivilizationType="CIVILIZATION_BLACK_KNIGHTS" TerrainType="TERRAIN_PLAINS_HILLS" Tier="3"/>
 		<Row CivilizationType="CIVILIZATION_BLACK_KNIGHTS" TerrainType="TERRAIN_TUNDRA_HILLS" Tier="3"/>
+		<Row CivilizationType="CIVILIZATION_BLACK_KNIGHTS" TerrainType="TERRAIN_COAST" Tier="3"/>
 	</StartBiasTerrains>
 	<TraitModifiers></TraitModifiers>
 	<Modifiers></Modifiers>
