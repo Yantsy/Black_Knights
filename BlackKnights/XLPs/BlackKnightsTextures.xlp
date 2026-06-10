@@ -170,10 +170,6 @@
 			<m_ObjectName text="ZERO_FRONT_IMG_80"/>
 		</Element>
 		<Element>
-			<m_EntryID text="ZERO_FRONT_SELECTION_"/>
-			<m_ObjectName text="ZERO_FRONT_SELECTION_"/>
-		</Element>
-		<Element>
 			<m_EntryID text="ZERO_HEAD_256"/>
 			<m_ObjectName text="ZERO_HEAD_256"/>
 		</Element>
@@ -212,6 +208,10 @@
 		<Element>
 			<m_EntryID text="ZERO_FRONT_LOADING_"/>
 			<m_ObjectName text="ZERO_FRONT_LOADING_"/>
+		</Element>
+		<Element>
+			<m_EntryID text="ZERO_FRONT_SELECTION_"/>
+			<m_ObjectName text="ZERO_FRONT_SELECTION_"/>
 		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>

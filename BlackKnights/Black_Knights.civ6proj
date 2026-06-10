@@ -82,6 +82,12 @@
     <Content Include="Data\Black_Knights_Units.xml">
       <SubType>Content</SubType>
     </Content>
+    <Content Include="GamePlayScript\CivTrait.lua">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="GamePlayScript\ref.lua">
+      <SubType>Content</SubType>
+    </Content>
     <Content Include="Icons\Black_Knights_IconsBuildings.xml">
       <SubType>Content</SubType>
     </Content>
