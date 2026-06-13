@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Black_Knights_Modifiers -->
+<!-- Author: z -->
+<!-- DateCreated: 6/12/2026 9:41:10 AM -->
+<GameData>
+    <Type>
+        <!--Modifier -->
+            <Row Type="MODIFIER_UNIT_COMBAT_STRENGTH_FROM_SCIENCULT_ELAPSE" Kind="KIND_MODIFIER"/>
+    </Type>
+    <DynamicModifiers>
+        <ModifierType>MODIFIER_UNIT_COMBAT_STRENGTH_FROM_SCIENCULT_ELAPSE</ModifierType>
+        <CollectionType>COLLECTION_UNIT_COMBAT</CollectionType>
+        <EffectType>EFFECT_ADJUST_PLAYER_STRENGTH_MODIFIER</EffectType>
+    </DynamicModifiers>
+</GameData>
