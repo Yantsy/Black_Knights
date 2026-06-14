@@ -41,3 +41,29 @@ ICON_DISTRIC_XXXX
 			 TraitType="TRAIT_CIVILIZATION_BUILDING_BLACK_KNIGHTS_FOREIGN_MINISTRY"/>
 	</Buildings>
 ```
+
+记录错误五：替代市政广场的特色建筑不加总督点数
+
+实现加总督点数的Modifier应该使用MODIFIER_PLAYER_ADJUST_GOVERNOR_POINTS，然后将它注册到DistrictModifiers中，而非仿照官方实现市政广场加总督点数的做法：使用MODIFIER_ALL_PLAYERS_ADJUST_GOVERNOR_POINTS，然后注册到GameModifiers，原因未知。这对于市政广场中的特色建筑也是同理。
+```xml
+<!--正确写法-->
+	<Modifiers>
+		<Row>
+			<ModifierId>BLACK_KNIGHTS_COMMAND_GRANT_PLAYER_GOVERNOR_POINTS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_GOVERNOR_POINTS</ModifierType>
+		</Row>
+	</Modifiers>
+		<ModifierArguments>
+		<Row>
+			<ModifierId>BLACK_KNIGHTS_COMMAND_GRANT_PLAYER_GOVERNOR_POINTS</ModifierId>
+			<Name>Delta</Name>
+			<Value>1</Value>
+		</Row>
+	</ModifierArguments>
+	<!--将Modifier注册到建筑-->
+	<DistrictModifiers>
+			<DistrictType>DISTRICT_BLACK_KNIGHTS_COMMAND</DistrictType>
+			<ModifierId>BLACK_KNIGHTS_COMMAND_GRANT_PLAYER_GOVERNOR_POINTS</ModifierId>
+		</Row>
+	</DistrictModifiers>
+```

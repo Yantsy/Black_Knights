@@ -57,9 +57,7 @@
 		条件集合SubjectRequirementsSetId是PLAYER_HAS_GOVERNMENT_DISTRICT_REQUIREMENTS-->
 		<Row>
 			<ModifierId>BLACK_KNIGHTS_COMMAND_GRANT_PLAYER_GOVERNOR_POINTS</ModifierId>
-			<ModifierType>MODIFIER_ALL_PLAYERS_ADJUST_GOVERNOR_POINTS</ModifierType>
-			<Permanent>true</Permanent>
-			<SubjectRequirementSetId>PLAYER_HAS_BLACK_KNIGHTS_COMMAND_DISTRICT_REQUIREMENTS</SubjectRequirementSetId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_GOVERNOR_POINTS</ModifierType>
 		</Row>
 	</Modifiers>
 	<ModifierArguments>
@@ -81,12 +79,13 @@
 			<DistrictType>DISTRICT_BLACK_KNIGHTS_COMMAND</DistrictType>
 			<ModifierId>BLACK_KNIGHTS_COMMAND_IDENTITY_PER_TURN_MODIFIER</ModifierId>
 		</Row>
+		<Row>
+			<DistrictType>DISTRICT_BLACK_KNIGHTS_COMMAND</DistrictType>
+			<ModifierId>BLACK_KNIGHTS_COMMAND_GRANT_PLAYER_GOVERNOR_POINTS</ModifierId>
+		</Row>
 	</DistrictModifiers>
 	<!--将Modifier注册到游戏全局-->
 	<GameModifiers>
-		<Row>
-			<ModifierId>BLACK_KNIGHTS_COMMAND_GRANT_PLAYER_GOVERNOR_POINTS</ModifierId>
-		</Row>
 	</GameModifiers>
 	<!--设定条件集中条件应该满足什么样的逻辑关系,运用什么条件类型-->
 	<RequirementSets>
@@ -106,7 +105,7 @@
 	<Requirements>
 		<Row>
 			<RequirementId>PLAYER_HAS_BLACK_KNIGHTS_COMMAND_DISTRICT_REQUIREMENT</RequirementId>
-			<RequirementType>REQUIREMENTSET_PLAYER_HAS_DISTRICT</RequirementType>
+			<RequirementType>REQUIREMENT_PLAYER_HAS_DISTRICT</RequirementType>
 		</Row>
 	</Requirements>
 	<!--填充子条件参数-->

@@ -3,10 +3,10 @@
 <!-- Author: z -->
 <!-- DateCreated: 6/12/2026 9:41:10 AM -->
 <GameData>
-    <Type>
+    <Types>
         <!--Modifier -->
             <Row Type="MODIFIER_UNIT_COMBAT_STRENGTH_FROM_SCIENCULT_ELAPSE" Kind="KIND_MODIFIER"/>
-    </Type>
+    </Types>
     <DynamicModifiers>
         <ModifierType>MODIFIER_UNIT_COMBAT_STRENGTH_FROM_SCIENCULT_ELAPSE</ModifierType>
         <CollectionType>COLLECTION_UNIT_COMBAT</CollectionType>

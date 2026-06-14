@@ -49,15 +49,18 @@
 			<BuildingType>BUILDING_BLACK_KNIGHTS_FOREIGN_MINISTRY</BuildingType>
 			<ModifierId>BLACK_KNIGHTS_FOREIGN_MINISTRY_GRANT_INFLUENCEPOINTS</ModifierId>
 		</Row>
+		<!-- 总督点数-->
+		 		<Row>
+			<BuildingType>BUILDING_BLACK_KNIGHTS_FOREIGN_MINISTRY</BuildingType>
+			<ModifierId>BLACK_KNIGHTS_FOREIGN_MINISTRY_GRANT_GOVERNOR_POINTS</ModifierId>
+		</Row>
 	</BuildingModifiers>
 	<GameModifiers>
-		<Row ModifierId="BLACK_KNIGHTS_FOREIGN_MINISTRY_GRANT_GOVERNOR_POINTS"/>
 	</GameModifiers>
 	<Modifiers>
 		<Row>
 			<ModifierId>BLACK_KNIGHTS_FOREIGN_MINISTRY_GRANT_GOVERNOR_POINTS</ModifierId>
-			<ModifierType>MODIFIER_ALL_PLAYERS_ADJUST_GOVERNOR_POINTS</ModifierType>
-			<SubjectRequirementSetId>PLAYER_HAS_BLACK_KNIGHTS_FOREIGN_MINISTRY_BUILDING_REQUIREMENTS</SubjectRequirementSetId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_GOVERNOR_POINTS</ModifierType>
 		</Row>
 		<Row>
 			<ModifierId>BLACK_KNIGHTS_FOREIGN_MINISTRY_ADJUST_FAVOR</ModifierId>
