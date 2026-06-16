@@ -145,11 +145,6 @@
 			<Value>COMBAT_STRENGTH_FOR_BLACK_KNIGHTS_UNITS</Value>
 		</Row>
 		<Row>
-			<ModifierId>BLACK_KNIGHTS_UNIT_ADJUST_PROPERTY</ModifierId>
-			<Name>Amount</Name>
-			<Value>10</Value>
-		</Row>
-		<Row>
 			<ModifierId>BLACK_KNIGHTS_RIGHTEOUS_ALLY_COMBAT</ModifierId>
 			<Name>Key</Name>
 			<Value>COMBAT_STRENGTH_FOR_BLACK_KNIGHTS_UNITS</Value>

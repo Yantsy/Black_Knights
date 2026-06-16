@@ -67,3 +67,5 @@ ICON_DISTRIC_XXXX
 		</Row>
 	</DistrictModifiers>
 ```
+
+记录错误五：可变单位加力不生效，原因在于加力没有取整数。

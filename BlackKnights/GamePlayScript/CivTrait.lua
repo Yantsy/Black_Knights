@@ -34,7 +34,7 @@ local function CivTraitOfBlackKnights(playerID, isFirstTurn)
 		local playerIDs=PlayerManager.GetAliveMajorIDs()
 		local zero={}
 		zero.enemies_count=0
-		zero.elapse=0.0
+		zero.elapse=0
 		zero.scie_elapse=0.0
 		zero.cult_elapse=0.0
 		zero.id=playerID
@@ -57,12 +57,12 @@ local function CivTraitOfBlackKnights(playerID, isFirstTurn)
 		end
 
 		if(zero.elapse>=0 and zero.enemies_count >0) then 
-			zero.elapse=(zero.scie_elapse*0.5+zero.cult_elapse*0.5)*100/zero.enemies_count
+			zero.elapse=math.floor((zero.scie_elapse*0.5+zero.cult_elapse*0.5)*100/zero.enemies_count)
 		end
 
 		for _, unit in zero.self:GetUnits():Members() do
 			if(unit~=nil) then
-				unit:SetProperty("COMBAT_STRENGTH_FOR_BLACK_KNIGHTS_UNITS",zero.elapse)
+				if(zero.elapse>=0) then unit:SetProperty("COMBAT_STRENGTH_FOR_BLACK_KNIGHTS_UNITS",zero.elapse) end
 				new_value=unit:GetProperty("COMBAT_STRENGTH_FOR_BLACK_KNIGHTS_UNITS")
 				if (new_value ~=nil) then
 				print(new_value)
