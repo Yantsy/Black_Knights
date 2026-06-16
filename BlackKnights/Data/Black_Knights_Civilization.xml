@@ -122,28 +122,32 @@
 		<Row CivilizationType="CIVILIZATION_BLACK_KNIGHTS" TerrainType="TERRAIN_TUNDRA_HILLS" Tier="3"/>
 		<Row CivilizationType="CIVILIZATION_BLACK_KNIGHTS" TerrainType="TERRAIN_COAST" Tier="3"/>
 	</StartBiasTerrains>
-	<TraitModifiers>
-		<Row>
-			<TraitType>TRAIT_CIVILIZATION_RIGHTEOUS_ALLY</TraitType>
-			<ModifierId>TRAIT_CIVILIZATION_RIGHTEOUS_ALLY_COMBAT</ModifierId>
-		</Row>
-	</TraitModifiers>
+	<UnitAbilities>
+		<Row UnitAbilityType="ABILITY_BLACK_KNIGHTS_COMBAT_UNITS" Name="LOC_ABILITY_BLACK_KNIGHTS_COMBAT_UNITS_NAME"
+		 Description="LOC_ABILITY_BLACK_KNIGHTS_COMBAT_UNITS_DESCRIPTION"/>
+	</UnitAbilities>
+	<!-- -->
+
 	<Modifiers>
 		<Row>
-            <ModifierId>TRAIT_CIVILIZATION_RIGHTEOUS_ALLY_COMBAT</ModifierId>
-            <ModifierType>MODIFIER_PLAYER_UNITS_GRANT_ABILITY</ModifierType>
-            <Permanent>true</Permanent>
-        </Row>
+			<ModifierId>BLACK_KNIGHTS_UNIT_ADJUST_PROPERTY</ModifierId>
+			<ModifierType>MODIFIER_UNIT_COMBAT_STRENGTH_FROM_SCIENCULT_ELAPSE</ModifierType>
+		</Row>
 		<Row>
 			<ModifierId>BLACK_KNIGHTS_RIGHTEOUS_ALLY_COMBAT</ModifierId>
-			<ModifierType>MODIFIER_UNIT_COMBAT_STRENGTH_FROM_SCIENCULT_ELAPSE</ModifierType>
+			<ModifierType>MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH</ModifierType>
 		</Row>
 	</Modifiers>
 	<ModifierArguments>
 		<Row>
-			<ModifierId>TRAIT_CIVILIZATION_RIGHTEOUS_ALLY_COMBAT</ModifierId>
-			<Name>AbilityType</Name>
-			<Value>ABILITY_BLACK_KNIGHTS_COMBAT_UNITS</Value>
+			<ModifierId>BLACK_KNIGHTS_UNIT_ADJUST_PROPERTY</ModifierId>
+			<Name>Key</Name>
+			<Value>COMBAT_STRENGTH_FOR_BLACK_KNIGHTS_UNITS</Value>
+		</Row>
+		<Row>
+			<ModifierId>BLACK_KNIGHTS_UNIT_ADJUST_PROPERTY</ModifierId>
+			<Name>Amount</Name>
+			<Value>10</Value>
 		</Row>
 		<Row>
 			<ModifierId>BLACK_KNIGHTS_RIGHTEOUS_ALLY_COMBAT</ModifierId>
@@ -151,14 +155,19 @@
 			<Value>COMBAT_STRENGTH_FOR_BLACK_KNIGHTS_UNITS</Value>
 		</Row>
 	</ModifierArguments>
-	<UnitAbilities>
-		<Row UnitAbilityType="ABILITY_BLACK_KNIGHTS_COMBAT_UNITS" Name="LOC_ABILITY_BLACK_KNIGHTS_COMBAT_UNITS_NAME"
-		 Description="LOC_ABILITY_BLACK_KNIGHTS_COMBAT_UNITS_DESCRIPTION" Inactive="true"/>
-	</UnitAbilities>
+	<TraitModifiers>
+		<Row>
+			<TraitType>TRAIT_CIVILIZATION_RIGHTEOUS_ALLY</TraitType>
+			<ModifierId>BLACK_KNIGHTS_UNIT_ADJUST_PROPERTY</ModifierId>
+		</Row>
+	</TraitModifiers>
 	<UnitAbilityModifiers>
 		<Row>
 			<UnitAbilityType>ABILITY_BLACK_KNIGHTS_COMBAT_UNITS</UnitAbilityType>
 			<ModifierId>BLACK_KNIGHTS_RIGHTEOUS_ALLY_COMBAT</ModifierId>
 		</Row>
 	</UnitAbilityModifiers>
+    <ModifierStrings>
+		<Row ModifierId="BLACK_KNIGHTS_RIGHTEOUS_ALLY_COMBAT" Context="Preview" Text="BLACK_KNIGHTS_RIGHTEOUS_ALLY_COMBAT_DESC"/>
+	</ModifierStrings>
 </GameInfo>

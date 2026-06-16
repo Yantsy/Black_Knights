@@ -2,13 +2,6 @@
 -- Author: z
 -- DateCreated: 6/10/2026 6:15:15 PM
 --------------------------------------------------------------
-function CombatBuffSelect(tech_cult_elapse)
-
-end
-
-function WallBuffSelect(num_of_allies)
-
-end
 --参考和而不同
 local function LeaderHasTrait(playerId, sTrait)
 if playerId == nil then
@@ -36,35 +29,54 @@ if playerId == nil then
 
 	return false;
 end
-function CivTraitOfBlackKnights() 
+local function CivTraitOfBlackKnights(playerID, isFirstTurn) 
+	if (LeaderHasTrait(playerID,"TRAIT_CIVILIZATION_ZERO_REQUIEM") == true )then
+		local playerIDs=PlayerManager.GetAliveMajorIDs()
+		local zero={}
+		zero.enemies_count=0
+		zero.elapse=0.0
+		zero.scie_elapse=0.0
+		zero.cult_elapse=0.0
+		zero.id=playerID
+		zero.self=Players[playerID]
+		zero.scie_yeild=zero.self:GetTechs():GetScienceYield()
+		zero.cult_yeild=zero.self:GetCulture():GetCultureYield()
+		local new_value=0
+	--获取科文差距
+		for _, playerID in ipairs(playerIDs) do
+			if(zero.id ~= playerID and zero.self:GetDiplomacy():IsAtWarWith(playerID)) then
+				local player=Players[playerID]
+				local player_scie_yeild=player:GetTechs():GetScienceYield()
+				local player_cult_yeild=player:GetCulture():GetCultureYield()
+				local tech_elapse=(player_scie_yeild-zero.scie_yeild)/player_scie_yeild
+				local cult_elapse=(player_cult_yeild-zero.cult_yeild)/player_cult_yeild
+				zero.enemies_count=zero.enemies_count+1
+				zero.scie_elapse=zero.scie_elapse+tech_elapse
+				zero.cult_elapse=zero.cult_elapse+cult_elapse
+			end
+		end
 
-local playerIDs=PlayerManager.GetAliveMajorIDs()
+		if(zero.elapse>=0 and zero.enemies_count >0) then 
+			zero.elapse=(zero.scie_elapse*0.5+zero.cult_elapse*0.5)*100/zero.enemies_count
+		end
 
-local zero={}
-zero.id=0
-zero.scie_yeild=0
-zero.cult_yeild=0
-zero.elapse =0
-zero.buff0_level=nil
-zero.buff1_level=nil
-
-for _, playerID in ipairs(playerIDs) do
-    if LeaderHasTrait(playerID,"TRAIT_CIVILIZATION_ZERO_REQUIEM") == true then
-        zero.id=playerID
-        local izero=Players[playerID]
-        zero.scie_yeild=izero:GetTechs():GetScienceYield()
-        zero.cult_yeild=izero:GetCulture():GetCultureYield()
-        end
+		for _, unit in zero.self:GetUnits():Members() do
+			if(unit~=nil) then
+				unit:SetProperty("COMBAT_STRENGTH_FOR_BLACK_KNIGHTS_UNITS",zero.elapse)
+				new_value=unit:GetProperty("COMBAT_STRENGTH_FOR_BLACK_KNIGHTS_UNITS")
+				if (new_value ~=nil) then
+				print(new_value)
+				else print("no_value")
+				end
+			end
+		end
+		print(zero.elapse)
+		print("bingo")
+	end
 end
 
-for _, playerID in ipairs(playerIDs) do
-    local player=Players[playerID]
-    local tech_elapse=zero.scie_yeild-player:GetTechs():GetScienceYield()
-    if tech_elapse > zero.elapse then zero.elapse=tech_elapse end
-    local cult_elapse=zero.cult_yeild-player:GetCulture():GetCultureYield()
-    if cult_elapse>zero.elapse then zero.elapse=cult_elapse end
+local function initialize()
+	Events.PlayerTurnActivated.Add(CivTraitOfBlackKnights)
 end
 
-print(zero.elapse)
-
-end
+Events.LoadGameViewStateDone.Add(initialize)

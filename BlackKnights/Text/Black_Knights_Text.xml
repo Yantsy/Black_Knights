@@ -11,7 +11,7 @@
 			<Text>Zero</Text>
 		</Replace>
 		<Replace Tag="LOC_LEADER_ZERO_TEXT" Language="zh_Hans_CN">
-		<Text>旧世界的毁灭者与新世界的创造者，去把这个不美好的世界变成你想要的模样，为了娜娜莉</Text>
+		<Text>我不否认战斗，但是，强者单方面杀害弱者，是绝对不能允许的。有权利开枪的，只有那些有被射杀的觉悟的人。我们在有力量的人攻击无力量的人的时候，一定会出手制止，哪怕那敌人，拥有多么强大的力量。拥有力量之人啊，畏惧我们吧！无力之人，追求我们吧！世界由我们黑色骑士团来仲裁！</Text>
 		</Replace>
 		<Replace Tag="LOC_CIVILIZATION_BLACK_KNIGHTS_ADJECTIVE" Language="zh_Hans_CN">
 			<Text>黑色骑士团的</Text>
@@ -23,7 +23,7 @@
 			<Text>黑色骑士团指挥中枢</Text>
 		</Replace>
 		<Replace Tag="LOC_BLACK_KNIGHTS_COMMAND_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>黑色骑士团的指挥中心，替代市政广场，但造价减半。使此城每回合的忠诚度+8、从每位公民获得[Icon_Culture]+2，[Icon_Science]+1、使相邻区域从此获得的相邻加成+2。奖励一个[Icon_Governor]总督头衔。</Text>
+			<Text>黑色骑士团的指挥中心，替代市政广场，但造价减半。使此城每回合的忠诚度+8、从文明中每个人口获得[Icon_Culture]+2，[Icon_Science]+2，[Icon_Gold]+2、使相邻区域从此获得的相邻加成+2。奖励一个[Icon_Governor]总督头衔。</Text>
 		</Replace>
 		<Replace Tag="LOC_DISTRICT_BLACK_KNIGHTS_COMMAND_CULTURE" Language="zh_Hans_CN">
 			<Text>从每个相邻的黑色骑士团司令部区域获得[ICON_Culture]+2</Text>
@@ -56,7 +56,10 @@
 			<Text>正义的伙伴</Text>
 		</Replace>
 		<Replace Tag="LOC_RIGHTEOUS_ALLY_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>与军事实力（计算己方军事实力不包括从城邦征召的单位）领先自己或盟友数量少于自己的文明作战时，基于双方差距提升己方军事单位战斗力，盟友人口数能够减少国际会议投票所需外交支持点数。</Text>
+			<Text>与每回合科文产出领先自己的文明作战时，基于科文的差距提升己方所有军事单位的战斗力，基于盟友数量提升近战单位对城墙造成伤害的比例。</Text>
+		</Replace>
+		<Replace Tag="BLACK_KNIGHTS_RIGHTEOUS_ALLY_COMBAT_DESC" Language="zh_Hans_CN">
+			<Text>+{Property}增益</Text>
 		</Replace>
 		<Replace Tag="LOC_ZERO_REQUIEM_NAME" Language="zh_Hans_CN">
 			<Text>零之镇魂曲</Text>

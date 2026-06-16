@@ -59,6 +59,18 @@
 			<ModifierId>BLACK_KNIGHTS_COMMAND_GRANT_PLAYER_GOVERNOR_POINTS</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_ADJUST_GOVERNOR_POINTS</ModifierType>
 		</Row>
+		<Row>
+			<ModifierId>BLACK_KNIGHTS_COMMAND_SCIENCE_POPULATION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_PER_POPULATION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>BLACK_KNIGHTS_COMMAND_CULTURE_POPULATION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_PER_POPULATION</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>BLACK_KNIGHTS_COMMAND_GOLD_POPULATION</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_ADJUST_CITY_YIELD_PER_POPULATION</ModifierType>
+		</Row>
 	</Modifiers>
 	<ModifierArguments>
 		<!--Amount是每回合增加的值，Delta只是触发一个即时的增量，比如此处就是建成黑色骑士团司令部时奖励一个总督头衔，而非每个回合奖励一个-->
@@ -72,6 +84,36 @@
 			<Name>Delta</Name>
 			<Value>1</Value>
 		</Row>
+		<Row>
+			<ModifierId>BLACK_KNIGHTS_COMMAND_SCIENCE_POPULATION</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>BLACK_KNIGHTS_COMMAND_SCIENCE_POPULATION</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>BLACK_KNIGHTS_COMMAND_CULTURE_POPULATION</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>BLACK_KNIGHTS_COMMAND_CULTURE_POPULATION</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_CULTURE</Value>
+		</Row>
+		<Row>
+			<ModifierId>BLACK_KNIGHTS_COMMAND_GOLD_POPULATION</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>BLACK_KNIGHTS_COMMAND_GOLD_POPULATION</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
 	</ModifierArguments>
 	<!--将Modifier注册到建筑-->
 	<DistrictModifiers>
@@ -82,6 +124,18 @@
 		<Row>
 			<DistrictType>DISTRICT_BLACK_KNIGHTS_COMMAND</DistrictType>
 			<ModifierId>BLACK_KNIGHTS_COMMAND_GRANT_PLAYER_GOVERNOR_POINTS</ModifierId>
+		</Row>
+		<Row>
+			<DistrictType>DISTRICT_BLACK_KNIGHTS_COMMAND</DistrictType>
+			<ModifierId>BLACK_KNIGHTS_COMMAND_SCIENCE_POPULATION</ModifierId>
+		</Row>
+		<Row>
+			<DistrictType>DISTRICT_BLACK_KNIGHTS_COMMAND</DistrictType>
+			<ModifierId>BLACK_KNIGHTS_COMMAND_CULTURE_POPULATION</ModifierId>
+		</Row>
+				<Row>
+			<DistrictType>DISTRICT_BLACK_KNIGHTS_COMMAND</DistrictType>
+			<ModifierId>BLACK_KNIGHTS_COMMAND_GOLD_POPULATION</ModifierId>
 		</Row>
 	</DistrictModifiers>
 	<!--将Modifier注册到游戏全局-->

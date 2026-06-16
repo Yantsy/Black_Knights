@@ -8,8 +8,10 @@
             <Row Type="MODIFIER_UNIT_COMBAT_STRENGTH_FROM_SCIENCULT_ELAPSE" Kind="KIND_MODIFIER"/>
     </Types>
     <DynamicModifiers>
+        <Row>
         <ModifierType>MODIFIER_UNIT_COMBAT_STRENGTH_FROM_SCIENCULT_ELAPSE</ModifierType>
-        <CollectionType>COLLECTION_UNIT_COMBAT</CollectionType>
-        <EffectType>EFFECT_ADJUST_PLAYER_STRENGTH_MODIFIER</EffectType>
+        <CollectionType>COLLECTION_PLAYER_UNITS</CollectionType>
+        <EffectType>EFFECT_ADJUST_UNIT_PROPERTY</EffectType>
+        </Row>
     </DynamicModifiers>
 </GameData>
