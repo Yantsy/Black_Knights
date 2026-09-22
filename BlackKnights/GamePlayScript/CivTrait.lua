@@ -29,6 +29,7 @@ if playerId == nil then
 
 	return false;
 end
+
 local function CivTraitOfBlackKnights(playerID, isFirstTurn) 
 	if (LeaderHasTrait(playerID,"TRAIT_CIVILIZATION_ZERO_REQUIEM") == true )then
 		local playerIDs=PlayerManager.GetAliveMajorIDs()
@@ -62,7 +63,8 @@ local function CivTraitOfBlackKnights(playerID, isFirstTurn)
 
 		for _, unit in zero.self:GetUnits():Members() do
 			if(unit~=nil) then
-				if(zero.elapse>=0) then unit:SetProperty("COMBAT_STRENGTH_FOR_BLACK_KNIGHTS_UNITS",zero.elapse) end
+				if(zero.elapse>=0) then unit:SetProperty("COMBAT_STRENGTH_FOR_BLACK_KNIGHTS_UNITS",zero.elapse)
+				end
 				new_value=unit:GetProperty("COMBAT_STRENGTH_FOR_BLACK_KNIGHTS_UNITS")
 				if (new_value ~=nil) then
 				print(new_value)

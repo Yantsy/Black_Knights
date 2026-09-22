@@ -69,3 +69,15 @@ ICON_DISTRIC_XXXX
 ```
 
 记录错误五：可变单位加力不生效，原因在于加力没有取整数。
+
+可变加力的实现：可变加力分为两个部分：一是需要一个可变的值，通过修改MODIFIER_UNIT_ADJUST_COMBAT_STRENGTH的键值实现，二是加力，通过MODIFIER_UNIT_COMBAT_STRENGTH_FROM_SCIENCULT_ELAPSE实现.
+
+```xml
+    <DynamicModifiers>
+        <Row>
+        <ModifierType>MODIFIER_UNIT_COMBAT_STRENGTH_FROM_SCIENCULT_ELAPSE</ModifierType>
+        <CollectionType>COLLECTION_PLAYER_UNITS</CollectionType>
+        <EffectType>EFFECT_ADJUST_UNIT_PROPERTY</EffectType>
+        </Row>
+    </DynamicModifiers>
+```

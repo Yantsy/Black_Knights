@@ -56,10 +56,10 @@
 			<Text>正义的伙伴</Text>
 		</Replace>
 		<Replace Tag="LOC_RIGHTEOUS_ALLY_DESCRIPTION" Language="zh_Hans_CN">
-			<Text>与每回合科文产出领先自己的文明作战时，基于科文的差距提升己方所有军事单位的战斗力，基于盟友数量提升近战单位对城墙造成伤害的比例。</Text>
+			<Text>与场上文明处于战争状态时，基于和对手的每回合科文产出差距使得己方所有军事单位的战斗力获得领袖增益加成。</Text>
 		</Replace>
 		<Replace Tag="BLACK_KNIGHTS_RIGHTEOUS_ALLY_COMBAT_DESC" Language="zh_Hans_CN">
-			<Text>+{Property}增益</Text>
+			<Text>+{Property}领袖增益</Text>
 		</Replace>
 		<Replace Tag="LOC_ZERO_REQUIEM_NAME" Language="zh_Hans_CN">
 			<Text>零之镇魂曲</Text>
